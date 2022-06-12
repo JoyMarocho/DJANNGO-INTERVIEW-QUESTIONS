@@ -1,0 +1,313 @@
+1. WHAT IS THE PURPOSE OF __INIT__.PY IN PROJECT DIRECTORIES?
+         - It allows Python to recognize the folder as a package.
+         - The __init__.py files are required to make Python treat the directories as containing packages; this is done to prevent directories with a common name, such as string, from unintentionally hiding valid modules that occur later on the module search path
+        - When an __init__.py file is present in a directory(folder or path) it treats the said directory as one that contains a package. By package I mean modules from the directory. The __init__.py file must be present in a directory before that directory can be used to access other modules. Without the file present it won’t allow you to import anything(sub-modules) from the directory.
+
+2. WHAT DOES OF DJANGO FIELD CLASS TYPES DO?
+     - Following points are specified by the Django Field Class type: –
+         * It specifies the database column type.
+         * It also specifies the default HTML widget which is availed while we render the form field.
+         * The requirements of the minimal validation which is used in Django admin is also specified by the field class.
+
+3. WHICH CODE WILL GIVE US A TEXT AREA FORM FIELD?
+         Field_name = forms.CharField(widgets = forms.Textarea)
+
+4. WHAT ARE REQUEST .GET AND REQUEST.POST OBJECTS?
+         - Python Dictionary-like Objects
+         - The HttpRequest object is used in conjunction with functions in the kony.net namespace to send requests to any resource on the network and fetch the response. The HttpRequest object provides the following API elements
+         - The request object allows you to submit a POST or GET request to an URL. Essentially it provides a way to make REST API requests to another URL. An example scenario is if you need to submit form information to a 3rd party as well as save it within the CMS.
+
+5. WHAT IS A DJANGO APP ?
+         - An app is a functionality, including models and views, that lives together in a single Python package.
+         - Django app is a python package with its own components.
+         - Django app is an extended package with base package is Django.
+         - A Django application is a Python package that is specifically intended for use in a Django project. An application may use common Django conventions, such as having models , tests , urls , and views submodules.
+         - An app is a functionality, including models and views, that lives together in a single Python package. Django app is a python package with its own components. Django app is an extended package with base package is Django. All of them.
+         - WHAT IS THE USE OF APP IN DJANGO?
+     * What is app in Django. An app in Django is a sub-module of a project, and it is used to implement some functionality. Now, you can refer to an app as a standalone python module that is used to provide some functionality to your project. We can create multiple apps within a single Django project.
+         - WHAT IS THE DIFFERENCE BETWEEN A DJANGO PROJECT VS AN APP?
+     * The difference between Project and App in Django is that the Project could be defined as the entire application, containing apps to perform specific tasks. And Apps are within the Project that is self-sufficient in a project and are designed to perform specific tasks.
+
+6.  WHAT DATA TYPE DO URLPATTERN MAP TO AS PER THE PYTHON PROGRAMMING LANGUAGE? 
+         - Tuple
+         - In url.py, the most important thing is the "urlpatterns" tuple. It's where you define the mapping between URLs and views. A mapping is a tuple in URL patterns ...
+
+7. IN DJANGO HOW WOULD YOU RETRIEVE ALL THE ‘USER’ RECORDS FROM A GIVEN DATABASE?
+         - User.objects.all()
+
+8. WHAT WILL STRANGE(1230) RETURN?
+         def strange(j):
+           k = 0
+           while j > 0:
+             k = 10 * k + j % 10  
+             j = j // 10
+           return k
+         print(strange(1230))
+
+   Output: 321      
+   
+9. WHAT IS THE EXPECTED OUTPUT?
+foo = [1,2,3,'a',None, (),[1,1
+print(len(foo))
+                  THE ANSWER IS: 7
+
+10. What is the output of the following?
+>>> word = "positive"
+>>> word[:2]
+         THE ANSWER IS: 'po'
+11. WHAT IS DJANGO?
+- Django is a free and open-source web framework written in Python and Based on the model-view-template architectural pattern. Django web framework is a set of components that help you to develop websites earlier and easier.
+- While building a website, you always need a similar set of components: a way to handle user authentication (signing up, signing in, signing out), a management panel for your website.
+- Fortunately, other people long ago noticed that the same problem is faced by developers while making a website, so they teamed up and created frameworks that give you ready-made components to use and Django is one of them.
+         QUICK QUESTIONS ABOUT DJANGO
+* Django is written in Python.
+* Django is Licensed under 3-clause BSD
+* Django is Developed by Django Software Foundation
+* Django is writtenBy  Adrian Holovaty, Simon Willison
+* Django is released on 15 July 2005
+* Django is based on model-template-view (MTV) architectural pattern
+
+12.  WHAT DO YOU UNDERSTAND BY DJANGO?
+         - Django is a free and open source web application framework, written in Python. Django is named after Django Reinhardt, Jazz guitarist from the 1930s to early 1950s who is one of the best guitarists of all time. Django was mainly developed to handle the intensive design of the newsroom. You can even build high-quality web applications using this. It adheres to the DRY principle and focuses completely on automating as much as possible.
+
+13. DOES DJANGO FOLLOW ARCHITECTURAL PATTERN ?
+         - Yes, Django follows Model-View-Controller (MVC) architectural pattern.
+         
+14. CLARIFY THE ARCHITECTURAL OF DJANGO ?
+         - Django follows MVC -MVT architecture. MVT  stand for Model View Template design Pattern which is little bit different from MVC (Model View Controller ) Pattern.
+
+15. IS DJANGO STABLE OR NOT ?  
+         - Of course, Django is stable. Most of the companies are using it.
+16. IS DJANGO A HIGH LEVEL OR LOW LEVEL FRAMEWORK ?
+         - Django is a high-level Python’s web framework which was designed for rapid development and clean realistic design.
+17. HOW DOES DJANGO WORK ?
+         - Django can be broken into several components:
+                  * MODELS.PY FILE: This file defines your data model by extending your single code line into full database tables and add a pre-built administration section to manage content.
+                  * URLS.PY FILE: It uses a habitual expression to confine URL patterns for processing.
+                  * VIEWS.PY FILE: It is the main part of Django. The actual processing happens in view.
+18. WHAT IS THE NAME OF THE FOUNDATION WHICH MANAGES DJANGO WEB FRAMEWORK ?
+         - Django web framework is managed and maintained by an independent and non-profit organization named Django Software Foundation (DSF).
+         
+19. NAME THE FEATURES AVAILABLE IN DJANGO WEB FRAMEWORK ?
+         - Features available in Django web framework are:
+                 * Admin Interface (CRUD)
+                 * Templating
+                 * Form handling
+                 * Internationalization
+                 * Session, user management, role-based permissions
+                 * Object-relational mapping (ORM)
+                 * Testing Framework
+                 * Fantastic Documentation
+                  
+20. WHAT ARE THE ADVANTAGES OF USING DJANGO FOR WEB FRAMEWORK ?
+         - Auto-generated web admin is provided by Django to make website administration easy.
+         - Pre-packaged API is also available for common user tasks.
+         - Business logic can be separated from the HTML using this framework.
+         - You can even divide the code modules into logical groups so as to make it flexible for changing.
+         - Template system is being provided so as to define HTML template for your web page to avoid code duplication.
+21. WHAT IS THE PURPOSE OF CREATING A PROJECT IN DJANGO ?
+         - To start a project in Django, use the command $django-admin.py and then use the following command:Project
+         _init_.py
+         manage.py
+         settings.py
+         urls.py
+         
+22. IS DJANGO A CONTENT MANAGEMENT SYSTEM (CMS) ?
+         - No, Django is not a Content Management System (CMS). Instead, it is a Web framework and a programming tool that helps you in building elegant websites.
+         
+23. WHAT DOES DJANGO TEMPALATE CONTAIN ?
+         - A template is a simple text file. It can create any text-based format like XML, CSV, HTML, etc. A template contains variables that get replaced with values when the template is evaluated and tags (%tag%) that control the logic of the template.
+         
+24. WHAT IS THE USE OF SESSION FRAMEWORK IN DJANGO ?
+         - The session framework helps you in storing and retrieving arbitrary data on a per-site visitor basis. The data is stored on the server side and abstracts the receiving and sending of cookies. We can implement sessions through a piece of middleware.
+         
+25. HOW CAN YOU SET UP STATIC FILES IN DJANGO ?
+         - Basically, we require three main things to set up static files in Django:
+                  1) Set STATIC_ROOT in settings.py
+                  2) Run manage.py collect static
+                  3) Set up a Static Files entry on the PythonAnywhere web tab
+26. HOW TO USE FILE BASED SESSIONS?
+         - You have to set the SESSION_ENGINE settings to “django.contrib.sessions.backends.file” to use file-based session.
+
+27. WHAT IS SOME TYPICAL USAGE OF MIDDLEWARES IN DJANGO ?
+         - Middleware is a function that acts on or transforms a request/response before/after it passes through the view layer (e.g. adding the user object to the request)
+         Some usage of middlewares in Django is:
+                  * It can be used for Session management,
+                  * User authentication can be done with the help of this.
+                  * It helps in Cross-site request forgery protection
+                  * Content Gzipping, etc.
+28. WHAT IS THE USAGE OF DJANGO-ADMIN AND MANAGE.PY ?
+         - DJANGO-ADMIN.PY: It is a Django’s command line utility for administrative tasks.
+         - MANAGE.PY: It is an automatically created file in each Django project. It is a thin wrapper around the Django-admin.py. It has the following usage:
+                  * It puts your project’s package on sys.path.
+                  * It sets the DJANGO_SETTING_MODULE environment variable to points to your project’s setting.py file.
+                  
+29. WHAT ARE SIGNALS IN DJANGO ?
+         - Signal are inbuilt utility in Django. They allow to execute some piece of code based on some action or event is occurred in framework something like a new user register, on delete of a record. Below is the list of some inbuilt signal in Django.
+                  * pre_save and post_save.
+                  * pre_delete and post_delete
+                  * pre_request and post_request
+                  * pre_request and post_request
+                  
+30. IS DJANGO FREE ?
+         - Yes, Django is free open source web framework for Python
+
+31. DJANGO IS BASED ON WHICH DESIGN PATTERN ?
+         - Django closely follows the MVC (Model View Controller) design pattern, however, it does use its own logic in the implementation. Because the “C” is handled by the framework itself and most of the excitement in Django happens in models, templates, and views, Django is often referred to as an MTV framework. In the MTV development pattern:
+                 * M stands for “Model,” the data access layer. This layer contains anything and everything about the data: how to access it, how to validate it, which behaviors it has, and the relationships between the data.
+                 * T stands for “Template,” the presentation layer. This layer contains presentation-related decisions: how something should be displayed on a Web page or other type of document.
+                 * V stands for “View,” the business logic layer. This layer contains the logic that accesses the model and defers to the appropriate template(s). You can think of it as the bridge between models and templates.
+                 
+Further reading https://djangobook.com/model-view-controller-design-pattern/
+
+32. WHEN AND WHO CREATED DJANGO ?
+         - According to https://en.wikipedia.org/wiki/Django_(web_framework), Django was created in the fall of 2003, when the web programmers at the Lawrence Journal-World newspaper, Adrian Holovaty and Simon Willison, began using Python to build applications. It was released publicly under a BSD license in July 2005. The framework was named after guitarist Django Reinhardt.
+
+33. LIST SERVER REQUIREMENTS TO INSTALL DJANGO FRAMEWORK ?
+         - As Django is Python Framework, in order to install Django Python is required.Django comes with an inbuilt lightweight web server that you can use for the testing purpose.If you are using Django on production Apache with mod_wsgi is required.
+
+34. LIST THE DATABASE BACKENDS SUPPORTED BY DJANGO FRAMEWORK ?
+         - Django officially supports four database backends, they are
+                  * PostgreSQL
+                  * MySQL
+                  * SQLite
+                  * Oracle
+         - In addition to these, you can also use following 3rd parties
+                  * SAP SQL Anywhere
+                  * IBM DB2
+                  * Microsoft SQL Server
+                  * Firebird
+                  * ODBC
+
+35. WHAT IS RECOMMENDED WAY TO INSTALL DJANGO ?
+         - Installing using pip is the recommended way to install Django Framework. Below are the steps to install official release of Django with pip
+                  * Install pip.
+                  * Configure virtualenv and virtualenvwrapper
+                  * Once virtual environment is created and activated, enter the command pip install Django to install Django
+
+36. HOW TO INSTALL THE DEVELOPMENTS VERSION OF DJANGO ?
+         - Follow the below steps to Install the development version of Django Framework.
+                  * Check out Django’s main development branch
+         $ git clone https://github.com/django/django.git
+                  * Make sure that the Python interpreter can load Django’s code. The most convenient way to do this is to use virtualenv, virtualenvwrapper, and pip.
+                  * After setting up and activating the virtualenv, run the following command:
+         $ pip install -e django/
+         
+Source:https://docs.djangoproject.com/en/2.0/topics/install/
+
+37. WHERE IS DJANGO MIGRATIONS STORED ?
+         - You can think Django Migrations as version control system for your database/Model. It keeps track of changes done in your application Models/Table like adding a field, deleting a model, etc. Migrations in Django are stored as an on-disk format, referred to here as “migration files”. These files are actually just normal Python files with an agreed-upon object layout, written in a declarative style. A basic migration file looks like this:
+                  from django.db import migrations, models
+                  class Migration(migrations.Migration):
+                      dependencies = [('migrations', '0001_initial')]
+                      operations = [
+                          migrations.DeleteModel('Tribble'),
+                          migrations.AddField('Author', 'rating', models.IntegerField(default=0)),
+                      ]
+                      
+38. HOW A REQUEST IS PROCESSED IN DJANGO ?
+In Django whenever a request is made by a user, it goes through the following steps:
+         - Django determines the root URLconf module to use. Ordinarily, this is the value of the ROOT_URLCONF setting, but if the incoming HttpRequest object has a urlconf attribute (set by middleware), its value will be used in place of the ROOT_URLCONF setting.
+         - Django loads that Python module and looks for the variable urlpatterns. This should be a Python list of django.urls.path() and/or django.urls.re_path() instances.
+         - Django runs through each URL pattern, in order, and stops at the first one that matches the requested URL.
+         - Once one of the URL patterns matches, Django imports and calls the given view, which is a simple Python function (or a class-based view). The view gets passed the following arguments:
+                  * An instance of HttpRequest.
+                  * If the matched URL pattern returned no named groups, then the matches from the regular expression are provided as positional arguments.
+                  * The keyword arguments are made up of any named parts matched by the path expression, overridden by any arguments specified in the optional kwargs argument to django.urls.path() or django.urls.re_path().
+                  * If no URL pattern matches, or if an exception is raised during any point in this process, Django invokes an appropriate error-handling view.
+                  
+39. WHEN TO USE THE ITERATOR IN DJANGO ORM ?
+         - Iterators are used for traversing an object in Python which implements iterator protocol. It consists of two methods __iter__() and next().
+In Django, a good use of iterator is when you are processing results that take up a large amount of available memory (lots of small objects or fewer large objects).
+
+For more clarification please read when to use and when to not use iterator() in the Python Django ORM
+https://stackoverflow.com/questions/12681653/when-to-use-or-not-use-iterator-in-the-django-orm
+
+40. WHEN QUERYSETS ARE EVALUATED IN DJANGO?
+         - In Django, a QuerySet can be evaluated in Iteration, Slicing, Pickling/Caching, repr(),len(), list() and bool().
+         
+41. HOW TO CHECK INSTALLED VERSION OF DJANGO ?
+         - By running below command on Terminal.You can check installed version of Django Framework.                 py -m django --version
+         
+42. HOW TO SET/UNSET SESSION IN DJANGO ?
+         - Setting Session in Django
+                  request.session['key'] = 'value'
+                  Unset Session in Django
+                  del request.session['key']
+                  
+43. WHAT IS CONTEXT IN DJANGO ?
+         - In Django Context is a dictionary with variable names in the form of key and value like {varible1: 101, varible2: 102},when we pass this context to the template render method, {{ varible1 }} would be replaced with 101 and {{ varible2 }} with 102 in your template.
+
+44. EXPLAIN MIXINS IN DJANGO. 
+         - A mixin is a special kind of multiple inheritances in Python. There are two main situations where mixins are used:
+                 * You want to provide a lot of optional features for a class.
+                 * You want to use one particular feature in a lot of different classes.
+
+Read More from https://stackoverflow.com/questions/533631/what-is-a-mixin-and-why-are-they-useful
+
+45. HOW TO GET CURRENT PAGE URI IN DJANGO TEMPLATE.
+         - You can use {{ request.path }} and {{ request.get_full_path }} to get current page URI in Django template.
+
+46. LIST SOME POPULAR WEBSITES BUILT IN DJANGO FRAMEWORK ?
+         - Following are the list of top 10 websites built on Django framework.
+                  * Instagram
+                  * Disqus
+                  * Bitbucket
+                  * Mozilla Firefox
+                  * Pinterest
+                  * NASA
+                  * Onion
+                  * The Washington Post
+                  * Eventbrite
+                  * Mahalo
+47. HOW TO CREATE AN CONSTANT IN DJANGO
+         - To create a constant in Django. Open your settings.py file and add a variable like MY_CONST = “MY_VALUE”.
+         - To use this constant in your views simply import setting like “Import settings in views.py” and use it as settings.MY_CONST
+         
+48. HOW TO CONFIGURE DATABASE IN DJANGO.
+         1. Open up the settings.py file in your IDE
+         2. Locate the database's setting and configure it as shown below.
+                  DATABASES = {
+                  'Default': {
+                  'ENGINE': 'django.db.backends.postgresql_psycopg2',
+                  'NAME': 'crmeasyDB',
+                  'USER': 'postgres',
+                  'PASSWORD': 'warning this is where you need to put your password',
+                  'HOST': '/tmp',
+                  'PORT': '5432',
+                  } }
+                  
+49. LIST TYPES OF RELATIONSHIPS/ASSOCIATIONS SUPPORTED IN DJANGO.
+         - The list of relationships supported by Django are:
+                  * One to Many relationships
+                  * Many to Many relationships
+                  * One to One relationships
+                  * Reverse relationships – related_name, related_query_name and symmetrical
+                  
+50. WHAT ARE CLASS-BASED VIEWS IN DJANGO ?
+         - A Class-based view in Django provides an alternative way of implementing views as Python objects instead of functions.
+
+51. WHAT CONSTITUTES DJANGO TEMPLATES?
+         - Template can create formats like XML,HTML and CSV(which are text-based formats). In general terms template is a simple text file. It is made up of variables that will later be replaced by values after the template is evaluated and has tags which will control template’s logic.
+
+52. LIST SOME CACHING STRATEGIES THAT YOU KNOW IN DJANGO!
+         - Few caching strategies that are available in Django are as follows:
+                  * File system caching
+                  * In-memory caching
+                  * Using Memcached
+                  * Database caching
+                  
+53. LIST TYPE OF INHERITANCE SUPPORTED IN DJANGO ?
+         - Django supports 3 types of inheritance. They are
+                  * Abstract base classes
+                  * Multi-table Inheritance
+                  * Proxy models
+
+54. WHAT IS STATIC_ROOT IN DJANGO?
+         - STATIC_ROOT is the absolute path to the directory from where Django collectstatic will static files for deployment.
+         - STATIC_ROOT example:
+                  STATIC_ROOT="/var/www/project_dir/static/"
+                  
+55. WHAT DJANGO COLLECTSTATIC COMMAND DOES ?
+         - Django collectstatic command is used to collect all required static files from the STATIC_ROOT dir.
+
