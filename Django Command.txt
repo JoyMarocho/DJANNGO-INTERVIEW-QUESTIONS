@@ -1,0 +1,50 @@
+Commands
+
+INSTALL PIP FIRST - 
+sudo apt-get install python3-pip
+THEN INSTALL VIRTUALENV USING PIP3
+sudo pip3 install virtualenv 
+NOW CREATE A VIRTUAL ENVIRONMENT
+virtualenv venv 
+YOU CAN ALSO USE A PYTHON INTERPRETER OF YOUR CHOICE
+virtualenv -p /usr/bin/python3.8 venv
+ACTIVE YOUR VIRTUAL ENVIRONMENT:
+source venv/bin/activate
+
+virtualenv virtual
+source virtual/bin/activate
+pip freeze
+pip3 install django
+pip install -r ./requirements.txt
+pip freeze > requirements.txt
+​
+django-admin startproject <projectname> .
+django-admin startapp <appname>
+python3.8 manage.py runserver
+pip install django-bootstrap4
+sudo apt update && sudo apt install code
+Install database dependency= pip install psycopg2
+python3.8 manage.py check
+python3.8 manage.py makemigrations - for testing tests.py
+python3.8 manage.py migrate
+python3.8 manage.py test news
+pip install pillow
+pip install python-decouple
+pip install django_registration_redux
+pip install djangorestframework 
+pip install django-tinymce
+pip install cloudinary
+
+BASIC DATABASE QUERIES. --- python manage.py shell
+DJANGO SUPER ADMIN ---- python manage.py createsuperuser
+
+
+
+checking installation
+python3.
+import django
+django.get_version()
+
+
+
+

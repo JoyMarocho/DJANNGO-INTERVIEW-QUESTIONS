@@ -1,0 +1,48 @@
+DATABASES
+- There are many types of databases. But most fall under 2 categories SQL - Structured Query Language databases and NoSQL => Non Structured Query Language databases.
+- PostgreSQL database => This is a type of SQL database.
+- SQL commands are usually case insensitive but by convention we capitalize them. 
+- Every SQL command ends with a semicolon ;.
+- Creating a Database => Bigbaby=# CREATE DATABASE school;
+- \c psql command to connect to the database
+- creating Tables => Bigbaby=# CREATE TABLE courses (name varchar,full_time boolean);
+         * varchar defines that all data stored in the column is will be a String. 
+         * Boolean data type states all the data stored will be a boolean either True or False.
+- Altering Tables => Bigbaby=# ALTER TABLE courses ADD student_number integer;
+         We add an Integer column to the table where we can store the number of students taking the course.
+- Droping columns => Bigbaby=# ALTER TABLE courses DROP student_number;
+- Inserting into Table => Bigbaby=# INSERT INTO courses (name, full_time) VALUES ('Advanced Math',True);
+- Retrieving data => Bigbaby=# SELECT name FROM courses ;
+- Select all entries from the table => Bigbaby=# SELECT * FROM courses ; 
+         The wildcard * tells psql to pick all the tables.
+- Deleting data - Bigbaby=#  DELETE FROM courses * ;
+- Adding a Primary Key => Bigbaby=# ALTER TABLE course ADD id serial PRIMARY KEY;
+            A primary key is a unique identifier inside a table. It is assigned to a new row and is not repeated anywhere else in the table.
+- Creating a Password => Bigbaby=# ALTER USER bigbaby password 'New Pasword'
+
+Common SQL commands
+- CREATE DATABASE database_name; # From the $USER database.
+- CREATE TABLE table_name (id serial PRIMARY KEY, some_column varchar, another_column int);
+- ALTER TABLE table_name ADD column_name boolean;
+- ALTER TABLE table_name DROP column_name;
+- SELECT * FROM table_name WHERE id >= 3;
+- SELECT * FROM contacts WHERE NOT id >= 5;
+- UPDATE courses SET name = 'Poetry' WHERE id = 2;
+- DROP TABLE table_name; # From the database that holds the table.
+- DROP DATABASE test_database; # From the $USER database.
+
+Postgresql commands
+         *List all databases: \l.
+         * Exit out of help menu: \q
+         * Connect to database: \c database_name
+         * List tables in current database: \dt
+         * List columns in a table: \d table_name
+         * See a list of all psql commands: \? (Press the down arrow to scroll through, or q to exit list.)
+
+SQLAlchemy
+- SQLAlchemy is an Object relational mapper that allows us to create a mapping between the database and the Python Objects in our application. 
+- It allows us to interact with the database using Python objects that will be translated and mapped into SQL statements.
+
+CREATING AN ENVRIONMENT -> python3.8 -m venv --without-pip virtual
+Install the Heroku CLI -> curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
+Activating an environment - source virtual/bin/activate

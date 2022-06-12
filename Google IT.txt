@@ -1,0 +1,38 @@
+- Qwiklabs is an online learning environment that takes you through live real-world scenarios you may encounter as an IT support specialist.
+- a virtual machine or VM simulates computers using software
+- The Internet is just an interconnection of computers around the world.
+ The Internet is the physical connection of computers and wires around the world. The Web is the information on the Internet.
+- The interconnection of computers is a Network
+-  managing, building and designing networks is known as networking .
+-Servers store the websites that we use, like Wikipedia, Google, Reddit, and BBC. These websites serve content
+- Computers on a network have an identifier called an IP address. An IP address is composed of digits and numbers like 100.1.4.3.
+- Devices that can connect to a network have another unique identifier called a MAC address. MAC addresses are generally permanent and hard-coded onto a device.
+- packets is data that is sent through a network is sent through 
+
+ways you can connect computers to a network
+         - Ethernet cable, which lets you physically connect to the network through a cable. 
+         - Wi-Fi, which is wireless networking. 
+         - Fiber optic cables to connect to a network. This is the most expensive method since fiber optic cables allow greater speeds than all the other methods.
+- router connects lots of different devices together and helps route network traffic. 
+Switches and hubs are also devices that help our data travel. 
+
+Two Network protocols
+- The Transmission Control Protocol and the Internet Protocol, or TCP/IP for short, which have become the predominant protocols of the Internet. 
+- The Internet Protocol or IP, is responsible for delivering our packets to the right computers.
+
+HTML, or hypertext markup language. It's a coding language used by web browsers.
+Uniform Resource Locator, is just a web address similar to a home address.
+www.reddit.com.
+         www -  World Wide Web.
+         reddit.com - domain name. 
+- It's just our website name. Once a name is taken, it'll be registered to ICANN, the Internet Corporation for Assigned Names and Numbers. once assigned cant be reused til  be reassigned till its free.
+
+IP ADDRESS
+1. Internet Protocol version four or IPv4 - is an address that consists of 32 bits separated into four groups.
+- Its the current Protocol,
+2. IPv6 or Internet Protocol version six addresses - consists of a 128 bits, four times the amount that IPv4 uses.
+3. NAT or Network Address Translation - This lets organizations use one public IP address and many private IP addresses within the network.
+
+TCP/IP; The TCP/IP protocol is what allowed computers to share information outside their network, which stemmed the creation of the Internet as we know it today.
+
+Globalization is the movement that lets governments, businesses, and organizations communicate and integrate together on an international scale. I

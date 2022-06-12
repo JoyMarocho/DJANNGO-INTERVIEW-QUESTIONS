@@ -1,0 +1,107 @@
+1. Describe your day-to-day activities?
+
+2. What’s the STLC – Mention phases/processes?
+
+3. When should the testing lifecycle begin
+
+4. What’s SDLC – Mention phases or processes and models?
+
+5. What it is the testing process in your company?
+
+6. What do you do if you find a bug in production?
+
+7. What do you do if a developer rejects your bug?
+
+8. BDD vs TDD?
+
+9. BDD includes automation. Mention how that comes.
+
+10. Mention types of BDD and how they can be practically implemented.
+
+11. Mention defect management tools you know
+
+12. Differentiate between priority and severity in bug handling?
+
+13. Mention the different levels/stages of priority and severity testing? 
+
+14. Explain the bug life cycle.
+
+15. Mention the bug details
+
+16. Talk about the response time of applications
+
+17. Mention three items to check in performance testing
+
+18. Mention non-functional tests 
+
+19. What languages are used for automation?
+
+20. Explain acceptance testing
+
+21. Differentiate between Quality Assurance and testing
+
+22. Describe the bug assigning process
+
+23. Describe performance testing
+
+24. Differentiate between retest and regression
+
+25. Explain bug reporting phases
+
+26. Differentiate between functional and non-functional testing
+
+27. How to do performance testing automation (Jmeter)
+
+28. Describe performance testing, the various types, and why they are conducted
+
+29. Reasons why a bug may not be fixed
+
+30. Mention benefits of agile methodology
+
+31. Describe the components of an API and tools used for testing
+
+32. How to intercept postman responses [Explain from the perspective of status code or test results]
+
+33. Test scenarios that are not fit for automation
+
+34. Reason for automating tests
+
+35. How to explain to your project manager that all tests can not be automated (Use scenarios)
+
+36. How many system and integration test cases can/do you test per day?
+
+37. How do you measure productivity for testing?
+
+38. Techniques applied in designing test cases
+
+39. Explain the creation and execution of test cases
+
+40. Mention some of the testing tools you are aware of.
+
+41. Describe a test plan and its components
+
+42. Describe test activities and outputs
+
+43. Differentiate between smoke and sanity testing
+
+44. Differentiate between boundary and equivalence partitioning/testing
+
+45. Who to approach when you have a particular issue during testing?
+
+46. How can you indicate that you have communicated to devs during tests (Addition or modification of test cases)
+
+47. How to explain to a developer to solve a bug if already rejected
+
+48. Explain CI/CD using Gitlab
+
+49. What to recommend to your manager if load tests fail using JMeter when asked to improve either infrastructure or code?
+
+50. What are triggers for CI/CD?
+
+CV and Interview guide sites
+https://www.youtube.com/watch?v=kayOhGRcNt4&t=344s - Linda Raynier - Tell me about yourself
+https://www.youtube.com/watch?v=M9JmC45VUtc - coracle - Writing a CV
+https://www.youtube.com/watch?v=DHDrj0_bMQ0 - Acing an Interview - Harvard Extension School
+https://www.youtube.com/watch?v=dfP9BvQ7q1M - Answering behavioral based questions - Laurier
+
+ Career Center
