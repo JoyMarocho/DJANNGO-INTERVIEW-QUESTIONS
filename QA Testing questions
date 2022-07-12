@@ -1,0 +1,329 @@
+1.  I want to become a quality assurance professional because I am passionate about helping companies create high-quality products that meet customer needs. I have always been interested in technology, so working in software development has always been appealing to me. I think being a part of a team that creates innovative solutions would be very rewarding.
+2. Three things that I’m looking for in my next role are a collaborative, team-focused culture, opportunities to learn and grow my skills from a technical standpoint, and a chance to learn more leadership skills over time. After reading the job description for this role, it sounds like this could be a good match for what I’m looking for, so I was excited to come interview for the position and learn more.
+3. I am an excellent fit for this position because of my past experience in quality assurance for Safaricom Plc, which is the largest telecommunications provider in Kenya, and one of the most profitable companies in the East and Central Africa region. 
+4. To gain more knowledge and experience on the role.
+5. I like to take responsibility for delivering a product with high quality. 
+6. I am read requirements/user stories/… carefully and I am persistent in verifying, that the product fullfils these requirments. . In addition I have a talent in finding loop holes and contradictions in requirments and edge cases in testing. 
+7. I am self organized, self motivated and I like to document my work.
+
+
+
+COULD YOU PLEASE DESCRIBE YOUR EXPERIENCE WITH MANUAL TESTING?*
+I work as a contractor at Safaricom PLC working as a software developer in engineering test. I'm part of the team that is developing G2 system for Safaricom Ethopia, which is the MPESA platform that is yet to be deployed in the Ethiopian market.
+Some of the tasks that I am currently working on include the following: 
+1.Studying the MPESA system to understand its flow in relation to mobile money transfer
+2. Designing the test flow diagrams for USSD, STK, and G2 web platforms that were used as a guide in designing the test cases.
+3.Developing the testcases using Excel and then uploading them to the Application Lifecycle Management (ALM) tool that we use to track the project's progress.
+4. I have worked as an assistant team lead for the testing for the testing team from Safaricom Ethopia.
+5. I participated in the Safarciom Fintech Hackerthon and was among the finalists in the hackerthon. Currently, the product is in production and I am the Product Manager for it.
+6. I am a qualified software developer, specializing in Python, Django,Flask, Angular and Javascript.
+
+
+
+WHAT HAS BEEN THE BIGGEST CHALLENGE YOU’VE FACED IN MANUAL TESTING? HOW DID YOU OVERCOME IT?*
+
+*** CHALLENGES EVERY QA FACES AND HOW TO SOLVE THEM ***
+ 1. LAST-MINUTE CHANGES TO REQUIREMENTS
+- It is quite common to change project requirements mid-sprint in agile development projects. While this is frustrating for the entire team, testers can be especially affected. They might have to redo the entire scope of testing since even the smallest changes to a codebase needs to be run through multiple tests to ensure its stability and compatibility with existing code.
+         For example, if a browser introduces an update, testers will have to perform browser compatibility testing to ensure that the website’s existing features run flawlessly even after the update. On the other hand, if a new feature is added to the website last-minute, cross browser testing is necessary to ensure that the feature works perfectly across multiple browsers.
+- Naturally, last-minute changes can be quite hard for testers to handle, especially if there are tight deadlines within which to deliver results.
+Solution
+- There’s not much of a workaround here since the digital world is constantly evolving. It is entirely possible that a feature needs to be changed or modified due to some changes in user feedback or software updates. For example, a feature might have to be modified because of a recent browser update.
+- Testers must expect that this will occur frequently. If requirement changes come through towards the end of a sprint, testers can opt for running as many tests as possible within the time available. It must be made clear before the project begins that last-minute changes to software may not be fully tested within predetermined deadlines.
+- By communicating the real-world limitations of testing, QAs can be sure that they do not appear unreasonable at the end of a sprint. Additionally, developers and other stakeholders will also be aware of what can be expected from QAs and can set timelines accordingly.
+
+2. INADEQUATE INFORMATION ON USER STORIES
+A tester’s primary job is to formulate test cases based on possible user journeys. However, to create test cases, QAs must have in-depth information about user journeys. This information must come from product owners who have the best understanding of what the software is expected to do and how users are likely to navigate it.
+However, if the product owner(s) themselves do not have clarity on user journeys, they cannot communicate it to the QAs. The QAs, in turn, cannot create test cases that will comprehensively test the website or app for flaws in user experience. To a large extent, this defeats the purpose of QA testing.
+
+Solution
+- This is where testers must somewhat depend on their own judgment. Instead of relying on detailed requirements and user stories, testers can start thinking about high-level scenarios a user would be likely to face when using certain software. For example, instead of waiting for full clarification about a feature, testers can formulate a set of likely user scenarios based on the website or app concept.
+- When test cases are written on the basis of high-level use cases, changes in feature details will result in minor variations in test scripts. This is because the context and the wider user journey remains the same. Hence, QAs will have to make less of an effort in this regard.
+
+3. INADEQUATE EXPERIENCE WITH TEST AUTOMATION
+- Agile development projects require testers to be technically competent, especially with regard to Integration Testing and API Testing. They are also required to create scripts for UI automation tests with automation tools such as Selenium.
+- If a tester is mostly experienced with manual, exploratory testing, they will face major challenges in delivering results with the speed expected in an automation-driven project.
+
+Solution
+- Anyone looking to work in QA testing should have some knowledge of programming languages frequently used to write test scripts. Ruby and Java are common examples of such languages.
+- Even if a tester is familiar with languages, they should also be proficient with the right tools for the job. As mentioned before, Selenium is highly effective for browser automation purposes and knowledge of how it works is very helpful.
+- Similarly, JMeter is an open-source performance testing tool which is also quite easy to pick up and quite useful in automation scenarios.
+
+4. INADEQUATE COLLABORATION BETWEEN TESTERS AND DEVELOPERS
+- Professional tension between development and testing teams is still quite common. Development teams might feel like testing is a final stage process and testers do not need anything apart from a list of user journeys and technical requirements.
+- However, testers end up having a difficult time identifying flaws in the code if they are not acquainted with the development process. If they do not understand how a piece of software works, they will have trouble creating test scripts that can adequately detect all possible bugs.
+
+Solution
+- Collaboration between developers and QAs facilitates better testing. By sharing knowledge with testers from the beginning of development, developers equip testers to make better decisions about what tests to run to ensure software quality and functionality.
+- When testers are empowered to make informed decisions, developers will also benefit since comprehensive testing of software components ensures that they are decidedly ready for deployment after every sprint.
+- Addressing the challenges above will not only make the lives of QA testers much easier but will streamline a software development process to make it more effective and time-efficient. By making it easy for QAs to do their job well, organizations can ensure that their software products are developed to meet all business requirements and function in the best possible way.
+
+**** MANUAL AND AUTOMATION TESTING CHALLENGES ***
+So here we go with the Top Challenges!
+
+#1) TESTING THE COMPLETE APPLICATION
+- Is that possible? That’s indeed impossible. There are millions of test combinations.
+- It is not possible to test each and every combination in both Manual as well as Automation Testing. If you try all these combinations you will never ship the product :-)
+
+#2) MISUNDERSTANDING OF COMPANY PROCESSES
+- Sometimes you just don’t pay proper attention to what the company-defined processes are and for what purposes they are.
+- There are some myths in testers that they should only go with the company processes even if these processes are not applicable for their current testing scenario. This results in incomplete and inappropriate Application Testing.
+
+#3) RELATIONSHIP WITH DEVELOPERS
+- It’s indeed a big challenge. It requires a very skilled tester to handle this relationship positively and even by completing the work in a tester’s way.
+- There are simply hundreds of excuses that the developers or testers can make when they do not agree with some points. For this, the tester also requires Good Communication, Troubleshooting and analyzing skills.
+
+#4) REGRESSION TESTING
+- If a project continues to expand, then regression testing work simply becomes uncontrolled. There will be pressure to handle current functionality changes, previous working functionality checks, and bug tracking.
+
+#5) LACK OF SKILLED TESTERS
+- This could be called as a “wrong management decision” while selecting or training testers for their project task in hand.
+- These unskilled fellows may add more chaos than simplifying the testing work. This results in incomplete, insufficient and ad-hoc testing throughout the Testing Life Cycle.
+
+#6) TESTING ALWAYS UNDER TIME CONSTRAINT
+- Hey tester, we want to ship this product by this weekend, are you ready for completion?
+- When this order is from the boss, the tester simply focuses on task completion and not on the test coverage and quality of work. There is a huge list of tasks that you need to complete within the specified time. This includes writing, executing, automating and reviewing test cases.
+
+#7) WHICH TESTS TO EXECUTE FIRST?
+- If you are facing the challenge stated in point no 6, then how will you decide which test cases should be executed and with what priority? Which tests are more important than others? This requires a good experience to work under pressure.
+
+#8) UNDERSTANDING THE REQUIREMENTS
+- Sometimes testers are responsible for communicating with customers to understand the requirements.
+- What if the tester fails to understand the requirements? Will he be able to test the application properly? Definitely not! Testers require good listening and understanding capabilities.
+
+#9) AUTOMATION TESTING
+- Many sub-challenges – Should automate the testing work? Until what level, should automation be done?
+- Do you have sufficient and skilled resources for Automation? Is time permissible for automating the test cases? The decision of Automation or Manual Testing will need to address the pros and cons of each process.
+
+#10) DECISION TO STOP TESTING
+- When to stop testing?
+This is a very difficult decision. Requires core judgment of testing processes and the importance of each process. It also requires an “on the fly” decision ability.
+
+#11) ONE TEST TEAM UNDER MULTIPLE PROJECTS
+- It is quite challenging to keep track of each task. Communication challenges are also involved. Many times, it results in failure of one or both the projects.
+
+#12) REUSE OF TEST SCRIPTS
+- Application development methods are changing rapidly, thereby making it difficult to manage the test tools and test scripts. Test script migration or reuse is a very essential but difficult task.
+
+#13) TESTERS FOCUSING ON FINDING EASY BUGS
+- If the organization is rewarding testers based on the number of bugs (very bad approach for judging Testers Performance) then some testers only concentrate on finding easy bugs that don’t require deep understanding and testing.
+- Hard or subtle bugs remain unnoticed in such a testing approach.
+
+#14) TO COPE WITH ATTRITION
+- Increasing salaries and the other benefits make many employees leave the company at very short career intervals. Management faces hard problems to cope with the attrition rate. - Challenges – New testers require project training from the beginning, as complex projects are difficult to understand, thereby leading to delay in shipping date!
+
+For further reference and detailed solutions to these challenges, refer to the book “Surviving the Top Ten Challenges of Software Testing” written by William E. Perry and Randall W. Rice.
+
+
+
+
+WHAT WERE YOUR BIGGEST ACHIEVEMENTS OR WORK THAT YOU ARE MOST PROUD OF?
+- I was the team lead for our QA Team , amd my team was ranked best in testing and delivery within the time scope. Also participated in Safaricom FintechHackerthon where my idea was among the finanlist and currectly working as a product owner to its production and delivery.
+
+
+
+****** MANUAL TESTING INTERVIEW QUESTIONS FOR EXPERIENCED ****
+9 MOST COMMON QA SOFTWARE TESTING INTERVIEW QUESTIONS FOR BEGINNERS AS WELL AS EXPERIENCED CANDIDATES:
+
+Q1) WHAT IS THE PROCESS FOR CREATING A TEST SCRIPT?
+- Step 1: is to get a thorough understanding of the AUT:
+         > This could be by reading the requirement documents thoroughly.
+         > In the absence of docs, we could try to understand any point of reference that we have – a previous version of the application or wire-frames or screenshots
+- Step 2: After understanding the requirements, we make a list of what are the areas in this application that will have to be tested. In other words, we identify the test requirements. The focus in this step is to identify “What” to test. The outcome of this step is a list of Test Scenarios.
+- Step 3: Once we have the test scenarios, we concentrate next on “How” to test them.  This phase involves writing detailed steps about how to test a particular feature, what data to enter (Test Data) and what is the expected result.
+
+Once these 3 steps are done, we are ready for testing.
+
+Q2) WHAT ARE THE FIELDS IN A BUG REPORT?
+Answer: Following important fields should be included in a good Bug Report:
+         > A unique ID
+         > Defect Description: a short describing what the bug is.
+         > Steps to Reproduce: details about how to arrive at the error, exact test data, the time at which defect was found(if applicable) environment: any information that will help re-encounter the issue
+         > Module/section of the application (if applicable)
+         > Severity
+         > Screenshot
+         > Responsible QA: in case of any follow-up questions regarding this issue
+
+Q3) HOW TO TEST A CUSTOMER-FACING SOFTWARE?
+Answer: With any application that we test, we are trying to see if a certain set of requirements are met by the application or not. But when it comes to a user-facing site, apart from concentrating on functionality, we also have to look into a few usability features, maybe performance and security aspects also to a certain extent.
+- The first level of testing is: Does the site satisfy its functional requirements.
+         For Example, if it is a loan management site, we need to look at – are the new customer able to apply for a loan, are the existing customer able to access their loan info, is the interest % applied to the loan amount correct, etc.
+- The next level of testing is: how easy is it to use the site, do the options make a logical sense and meet the expectations of the user or not.
+         For Example, if the user has to be pass 3-4 screens to submit the basic information they are going to be annoyed, so such issues have to be addressed.
+         Another example, after entering username and password, the user might click on the tab- which means the control should go to “Sign in” button, instead if it’s going to cancel, the user is going to be really annoyed and the experience of using the site is going to be compromised. Such issues have to be caught.
+- PERFORMANCE TESTING to the complete extent might not be in scope but simple situations like, how long does the search results take to be displayed and how much time does it take for the system to retrieve a customer info at the peak hour – these are some example of the kind of things we would want to keep an eye on.
+- Security – for sites where there is a secure login to access the site, the minimum functionality around it has to be tested. For Example, if I leave the site idle for more than 10 minutes, is it auto logging out or not. Something as basic as that should be focused on.
+
+Q4) HOW TO OVERCOME THE CHALLENGE OF NOT HAVING INPUT DOCUMENTATION FOR TESTING?
+ANSWER: IF the detailed standard documentation like BRD and FSD are unavailable, the tester will have to depend on some point of reference.
+         > Screenshots
+         > A previous version of the application
+         > Wireframes, etc
+- Another factor that helps immensely, is to talk to the developers or the business analysts (when available) to get a confirmation on our understanding or clarifications in case of doubts.
+- When none of these situations works, we can just conceptualize the application based on our previous IT application experience and create the basic set of test scripts. When the testing phase comes up, we can set up a portion of test cycle time and do some test case management (make the already created scripts perfect) so we have the doc for the next phases.
+
+Q5) HOW TO GET MAXIMUM PRODUCTIVITY FROM AN OFFSHORE TEAM?
+Answer: The key is to make sure that all the testers know about all the modules and that there is no knowledge concentration in one place. Involving everyone in test script peer reviews, defect meetings, and KT sessions are going to ensure that everyone is aware of the application to the best extent possible.
+- Also, by encouraging the concept of teamwork we can have the team members collaborate, help and aid each other for better productivity.
+- Regular follow up meetings also help the process very much.
+
+Q6) WHAT ARE THE ROLES AND RESPONSIBILITIES OF AN ONSITE COORDINATOR? DOES HE/SHE TEST TOO?
+Answer: The onsite coordinator is a point of contact for the offshore team and to the client for any information regarding the testing engagement.
+- This job includes:
+         > KT from and to offshore and clients
+         > Getting the environment to test all ready
+         > Sanity testing, smoke testing
+         > Testing – the key functionality.
+         > Bug review – found by the offshore team
+         > Bug assigning to the respective dev
+         > Presenting metrics
+         > Providing sign off
+Yes, even an onsite coordinator has to test.
+
+Q7) INCONSISTENT BUGS- WHY ONSITE CAN FIND IT, BUT OFFSHORE CAN’T AND VICE VERSA – HOW TO HANDLE THIS SITUATION?
+Answer: Every bug has to be noted and analyzed – whether it is encountered at onsite or offshore, whether repeatable or not. A real value-add to a tester’s job is when we involve ourselves in the Root Cause Analysis process for a bug rather than simply reporting it.
+- Some of the ways we can handle this situation are:
+         > All the onsite and offshore team members should follow a guideline that screenshots had to be taken for every error that we encounter – repeatable or not.
+         > If there are logs, system files or anything like that, that might help us find any evidence of the issue- we should try to find it.
+         > Despite all these steps, if we still can’t tell why and when the problem occurs- we should report it to the developer all the same – with as much information as we can.
+
+Q8) VIDEO/AUDIO RELATED TESTING – WHAT DOES THIS INCLUDE?
+Answer: How to test an application having video or audio?
+- Here are the important points to consider:
+         > Access levels (restricted or not – password controlled)
+         > Different kinds of environments
+         > Browser compatibility
+         > Screen resolutions
+         > Internet connection speeds
+         > The specific options on a video – like play, stop, mute, etc.
+         > Video by size
+         > Response to the videos – comments (limitations on the comment length and number of comments it can take)
+         > Video responses to the videos
+         > Interface with social networking sites – Interoperability
+         > Buffering speed
+         > Embedding the video
+
+Q9) MOBILE APPLICATION TESTING – WHAT DOES IT INCLUDE BRIEFLY?
+Answer: Mobile App Testing Important Test Scenarios:
+         > Check if the app works well with multiple carriers and multiple devices.
+         > Usability of the features on a mobile screen.
+         > Testing it on different mobile platforms – like Android and iOS.
+         > Installations, uninstalling, launching the app with network and without a network, testing functionality.
+         > Network connections –WiFi, 2G, etc.
+         > Logs at iOS iPhone configuration utility for Android Monitor.bat can be used for debugging.
+
+WHAT ARE YOU LOOKING FOR IN THIS NEW ROLE?*
+What I’m looking for in my next role are a collaborative, team-focused culture, opportunities to learn and grow my skills from a technical standpoint, and a chance to learn more leadership skills over time. Also I would love gain more knowledge and experience in the role so as to enrich my career. After reading the job description for this role, this is a good match for what I’m looking for, so I am excited to come interview for the position and learn more.
+
+WHAT EXCITES YOU ABOUT THIS ROLE AT SITEMATE?
+I'm interested in this job as a QA because I'm extremely interested in learning and excelling at new technologies. I want to become a quality assurance professional because I want to be part of the team that contributes to the general growth of the company by ensuring that it designs high quality products that meets customer needs. I have always been interested in technology, so working in software development has always been appealing to me. I think being a part of a team that creates innovative solutions would be very rewarding . 
+Am also exited to work at Sitemate because it builds the best class software products for the built world. This gives me a platform to learn and experience much more and on a higher level.
+
+
+Why Does A Tester Like His/Her Job And Where Do You Fit?
+With further discussion, I am going to present a list of points about why a QA person can like his/her job. Please read on and let yourself know, in which category you fit.
+
+#1) DO YOU LIKE SOFTWARE TESTING BECAUSE IT IS CHALLENGING?
+- It surely is. Software Testing is about looking at a product from different angles, with different perspectives and testing it with different expectations. It is not easy to develop the right mindset and to test the product with different aspects.
+
+#2) DO YOU LIKE SOFTWARE TESTING BECAUSE IT IS SATISFACTORY?
+- It is very true. By testing the software, finding and tracking the bugs and also through suggestions of improvement ideas, you are contributing towards the betterment of the product, it surely is the most satisfactory job.
+
+#3) SOFTWARE TESTING IS COMPLEX:
+- Don’t you believe it? Do you think, understanding product and testing the same while considering different factors like functionality, performance, security, GUI and many others, is an easy task? Along with that, nowadays, it has become more complex due to Mobile Applications.
+- To cover the vast range of devices available and to check the application’s behavior in terms of response time and usability is a big challenge.
+
+#4) SOFTWARE TESTING IS A PROCESS:
+- As Software Testing starts with understanding requirements and continues with document preparation like test plan, test strategy, test cases, execution of test cases, preparation of test reports and test summary, a cycle of process is followed and it makes the task (=testing) more fruitful.
+
+#5) SOFTWARE TESTING IS ABOUT IMPROVING QUALITY:
+- The ultimate purpose of software testing is not to find bugs but to make the product qualitative. As a tester, you are contributing to improvements in product quality.
+
+#6) SOFTWARE TESTING IS ABOUT FINDING DEFECTS IN OTHERS’ WORK:
+- Critical attitude surely helps when it comes to software testing. By nature, if you like to find faults in others’ work, software testing is the job for you. But remember, the attitude should be limited to work and should not affect your relationship with colleagues and personal life.
+
+#7) SOFTWARE TESTING IS ABOUT UNDERSTANDING THE CUSTOMER:
+- Isn’t it correct? A good software tester is the one, who understands what customer wants, who studies the market, who understands latest trends, who provide relevant information to the client, who interprets how important the product is for the customer and ultimately who can be in customer’s shoes and work on a product.
+- Software Testing is really not just mechanical execution of 50 test cases per day but to understand the importance of test cases and tweaking them as per requirement and analyzing results to provide the best.
+
+#8) SOFTWARE TESTING IS ABOUT BUILDING CONFIDENCE IN THE PRODUCT:
+- How do you help the developers and organization by doing Software Testing? By testing the software, you are finding bugs and analyzing products from different perspectives, which helps to make the product better and thereby helps in growing confidence regarding the product developed.
+
+#9) SOFTWARE TESTING IS ABOUT LEARNING FAST AND IMPLEMENTING NEW IDEAS:
+- Yes, software testing is the most interesting job because it throws challenges at you every day.
+- You have to stretch your mind to understand something, to find out how it should work and how it should not, to study the general behavior, to improve the analysis power, to learn new tools and implementing the learning in real life. This can rather be put as software testing is all about generating ideas.
+- This is the only field in IT, where you have to apply a number of ideas to do your work. You have to look at a bigger picture and you have to understand how badly end users can handle the product and have to imagine what could be end user’s expectations. Easy is it? Not at all.
+
+#10) SOFTWARE TESTING IS ABOUT DECIDING THE PRIORITY:
+- As a software tester, most of the time you experience being pushed to complete the task ahead and early. Most of the estimated times for the product is eaten by development and in fixing the defects found in initial rounds of testing.
+- Ultimately you are left with almost no time and you own a big responsibility of signing the product as “TESTED”. To handle these kinds of situations you have to understand the priority and have to work and convey accordingly.
+
+#11) SOFTWARE TESTING IS ABOUT ANALYZING DATA AND PROVIDING RESULTS:
+- As I mentioned above, software testing is not limited to executing test cases. One has to understand the results, has to generate a matrix and also needs to analyze a product’s behavior accordingly.
+
+#12) I HAVE TO LIKE IT AS I DO NOT SEE ANY OTHER OPTION:
+- I really hope no one would go for this option. Software testing is an ocean and no matter at which point you are sailing your boat, you are surely going to face the strong winds and splashing waves.
+- But ultimately, my friend, who wants to sit on the seashore and keep looking at boats? So, love your software testing job as you are doing something best rather than just earning.
+
+
+WHY DO YOU WANT TO BECOME A QUALITY ASSURANCE PROFESSIONAL?
+- This question is a great way to learn more about the applicant’s motivations and goals. It can also help you determine whether they are passionate about quality assurance, which can be an important factor in their success as a QA professional. When asking this question, it can be helpful to explain what inspired you to pursue a career in quality assurance yourself.
+         Example: “I want to become a quality assurance professional because I am passionate about helping companies create high-quality products that meet customer needs. I have always been interested in technology, so working in software development has always been appealing to me. I think being a part of a team that creates innovative solutions would be very rewarding.”
+
+WHAT’S YOUR EXPERIENCE IN QA?
+- This question is a great way to gauge your experience level and how you can apply it to the role. If you’re applying for an entry-level position, explain what you’ve learned in school or through internships. If you have more experience, highlight some of your most recent projects and accomplishments.
+         Example: “I graduated with my bachelor’s degree in computer science last year, so I’m fairly new to the field. However, I did complete an internship at a software company where I tested several applications. I also completed a project that helped me learn how to test websites and mobile apps.”
+
+WHAT’S YOUR LEAST FAVORITE PART OF QUALITY ASSURANCE?
+- This question is a great way to see how you react to challenges in your work. It’s important for employers to know that you enjoy the majority of your job and are willing to put forth effort to improve any aspects you don’t like. Your answer should show that you’re flexible, but also honest about what you dislike.
+         Example: “My least favorite part of quality assurance is when I find bugs or errors in software after it has been released to customers. This means that users may have experienced issues with the product before we could fix them. While this isn’t something I can control, I do my best to ensure that our team releases high-quality products as often as possible.”
+
+HOW WOULD YOU APPROACH TESTING A NEW PIECE OF SOFTWARE?
+- This question can help the interviewer understand your testing process and how you apply it to new software. Use examples from past projects or experiences to explain how you would approach this task, especially if you have experience with a specific type of software.
+         Example: “I would first read through the requirements for the software and create test cases based on those specifications. Then I would run my test cases to ensure they meet the requirements and identify any issues that need to be fixed. After fixing the issues, I would rerun the tests until all requirements are met. Finally, I would submit my report to management.”
+
+CAN YOU DESCRIBE THE SOFTWARE TESTING LIFE CYCLE YOU USE AT YOUR CURRENT JOB?
+- The interviewer may ask you this question to see how well you understand the software testing life cycle and whether you can apply it in your current role. Use your answer to explain what steps you take during each phase of the software testing life cycle, including defining requirements, creating test cases, executing tests and reporting results.
+         Example: “At my current job, I use a waterfall approach for software testing. This means that I first define requirements before moving on to create test cases. Once I have created test cases, I execute them and report any bugs or issues I find. Then, I repeat these steps until all requirements are met. Afterward, I move onto the next project.”
+
+HOW DO YOU DETERMINE THE RELEASE DATE FOR A PROJECT?
+- This question helps the interviewer evaluate your ability to work with a team and make decisions. Use examples from past projects where you had to collaborate with others on a release date or discuss how you would decide on one if you haven’t yet.
+         Example: “I’ve worked on several projects that required me to determine the release date, but I always try to involve my team in the decision-making process. For example, when working on a project for a client who needed an update every two weeks, I discussed the best time frame for our QA team to complete testing while still meeting the deadline. In this case, we decided on a biweekly release schedule.”
+
+WHAT ARE THE QUALITIES YOU THINK A QA ENGINEER SHOULD HAVE?
+- This question is a great way to see if you have the same qualities as other QA engineers. It also allows you to show your knowledge of what it takes to be successful in this role. When answering, think about which skills and traits are most important for someone in this position.
+         Example: “I believe that being organized is one of the most important qualities a QA engineer can have. This helps them stay on top of their work and ensures they’re able to find any issues before they become major problems. I also think it’s important to have excellent communication skills. A QA engineer needs to be able to clearly explain their findings so others understand what they’re talking about. Finally, I think patience is an essential quality because testing can take quite some time.”
+
+WHAT ARE THE DIFFERENT TYPES OF SOFTWARE TESTING?
+- This question is a great way to test your knowledge of the different types of software testing. You can list out all the different types and explain what each one does.
+         Example: “There are many different types of software testing, including functional testing, unit testing, integration testing, system testing, regression testing, load testing, usability testing, beta testing, alpha testing and smoke testing. Each type of testing has its own purpose and uses. For example, functional testing checks if an application works as it should. Unit testing checks if individual units work correctly. Integration testing checks if two or more applications work together. System testing checks if the entire system functions properly.”
+
+CAN YOU EXPLAIN WHAT STRESS TESTING IS?
+- This question is a great way to test your knowledge of QA testing. Stress testing is a type of software testing that involves putting the system under heavy loads and monitoring its performance. It’s used to ensure that the application can handle peak traffic, which is important for many businesses. Your answer should include an explanation of what stress testing is and how you’ve performed it in the past.
+         Example: “Stress testing is a method of software testing where I put the system under heavy loads to see if it can perform well. This is especially useful when working on projects with large user bases because it allows me to identify any issues before they become major problems. In my last role, I would use tools like JMeter to simulate thousands of users accessing the website at once.”
+
+WHAT IS STATIC TESTING AND WHAT ARE ITS SUBCATEGORIES?
+- This question tests your knowledge of the different types of testing. It also allows you to show that you can apply what you know about static testing to a real-world situation.
+         Example: “Static testing is a type of software testing where the tester analyzes the code without executing it. There are two subcategories of static testing, which are syntax and semantic. In syntax testing, I check for errors in the source code by using tools like compilers or linting tools. Semantic testing checks if the program’s behavior matches its requirements.”
+
+WHAT ARE THE DIFFERENCES BETWEEN COSMETIC AND SEVERE DEFECTS?
+- This question is a great way to test your knowledge of the different types of defects. Your answer should include an explanation of what each type is and how they differ from one another.
+         Example: “Cosmetic defects are small issues that don’t affect the functionality of the software or application. For example, if there’s a spelling error in the user interface, this would be considered a cosmetic defect. Severe defects, on the other hand, are more serious and can cause major problems with the software or application. If there’s a bug that causes the system to crash, this would be considered a severe defect.”
+
+WHAT ARE SOME TOOLS YOU USE TO TEST FUNCTIONALITY?
+- This question can help the interviewer understand your technical skills and how you apply them to a project. Use examples of tools you’ve used in previous roles, and if you haven’t worked as a QA tester before, consider mentioning some tools you’d like to try.
+         Example: “I use Selenium for functional testing because it’s an open-source tool that allows me to write test cases in different programming languages. I also use Cucumber for acceptance testing since it helps me automate my tests by using business requirements. For load testing, I use JMeter, which is a free application that lets me create performance benchmarks and stress test applications.”
+
+HOW DO YOU DETERMINE THE QUALITY OF CODE?
+- This question is an opportunity to show your knowledge of the software development process and how you can contribute to a team. Use examples from previous experience that highlight your critical thinking skills, problem-solving abilities and attention to detail.
+         Example: “I use several methods to determine the quality of code. One method I use is static analysis, which involves running a program over the source code to check for errors in syntax, runtime errors and other issues. Another method is unit testing, where I write test cases to ensure the application functions as expected. Finally, I also perform usability testing to see if the application meets user requirements.”
+
+HOW DO YOU TEST FOR USABILITY?
+- The interviewer may ask you a question like this to assess your knowledge of the testing process and how it relates to quality assurance. Use examples from past projects where you tested for usability, or explain what steps you would take to test for usability in your next role.
+         Example: “I’ve worked on several projects that required me to test for usability. In my last position, I was tasked with finding bugs within the user interface. To do so, I used a variety of tools including automated software and manual testing methods. I also performed tasks similar to those users would perform when using the application to ensure I didn’t miss any issues.”
+
+WHAT IS AUTOMATED TESTING? HAVE YOU USED IT?
+- This question is a great way to test your knowledge of QA testing. It also allows you to show the interviewer that you have experience with automated testing and can use it in your daily work.
+         Example: “Automated testing is when a computer program runs tests on an application or website. I’ve used automated testing for many years, as it’s one of my favorite ways to ensure quality within applications. In fact, I prefer using automated testing over manual testing because it saves time and resources while still providing thorough results.”
+         
+ 

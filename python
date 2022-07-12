@@ -1,0 +1,278 @@
+Classes
+A class is a blueprint to create objects. It allows us to group data and functions logically and in an easy to use manner.
+
+Objects
+- An object is an instance of a class.
+- Objects can have different property values but implement the same attributes and methods.
+-Docstrings are strings that occur as the first statement of a named block. They allow you to document what that code block does. 
+
+- The __init__ method in Python, allows us to create new instances of a class. And it also allows us to pass in properties for the new object.
+-It is written with double underscores (_) before and after the word init
+
+self Variable
+- Methods and functions in Python have only one major difference. 
+- Methods have one extra variable added to the beginning of their parameter list: The self variable.
+- self is a variable that represents the instance of the object itself. If you are coming from another programming language like Java or JavaScript, the self variable can be likened to the this keyword,
+
+- Instance variables are variables that are unique to each new instance of the class.
+- Class variables are variables that belong to the entire class and can be accessed by all instances of the class. 
+
+Behavior Driven Development- BDD
+- It is a process that facilitates the collaboration between the product owner, tester and developer when determining the system behavior.
+- In traditional development, the product owner comes up with behavior, tester and developer are left to translate the product owner's behavior into test cases and code.
+- This is known as the three amigos (product owner, tester and developer). 
+- The requirements are arrived at through questions and use of examples when describing scenarios.
+- BDD allows the development team to have a clear understanding of the uncertainties, which in turn helps them create a product that matters. 
+- It focuses on why the features are created rather than how.
+
+Why Use BDD?
+i) Clarity - everyone is able to understand how the software works.
+ii) Simplicity - using simple english to explain how the system works, this is key in helping the team to understand how everything works.
+iii) Transparency - everyone knows what to expect from the system.
+iv) Specific - we only write code for the features that we need.
+v) Confidence - we are sure that the features are working since we are using tests.
+
+Merit
+* We use BDD to facilitate good communication between the different parties that are involved when developing a product. 
+* We are able to better understand everything that is required when developing the system, through constant feedback and use of examples.
+
+Test Driven Development -TDD
+- TDD stands for test driven development or test driven design.
+- It is a style of programming where 3 activities are involved
+                  i) Coding
+                  ii) Testing
+                  iii) Refactoring
+- It can be summarized into the following steps:
+         * Write a single test describing a feature of the program.
+         * Run the test and to make sure it fails because your program lacks that feature.
+         * Write the simplest code possible to make test pass.
+         * Refactoring the code till it confirms to the simplest criteria.
+         
+Benefits of TDD
+- With TDD you get.
+         1. Fewer bugs in code -because you have tested out the main features
+         2. Focus - your focus is narrowed to making sure the test passes
+         3. Documentation - tests act like documentation in that if you do not know what a bit of code does you can read it and see what it does.
+- A subclass is like a normal class but in addition to its own variables and method it also inherits methods and variables from another class.
+
+setUp Method
+The setUp() method allows us to define instructions that will be executed before each test method
+
+Decorators allow you to make simple modifications to callable objects like functions, methods, or classes.
+
+pyperclip.copy() method allows us to copy passed in items to the machines clipboard
+
+#! shebang
+- The shebang line in any script determines the script's ability to be executed like an standalone executable without typing python3.8 beforehand in the terminal. 
+- It is always the first line in any runnable python script.
+- It also helps anyone looking at your application to know what version of python the application uses.
+
+File Types
+- Text Files - A file organized in a sequence of lines, that include a sequence of characters.
+- Binary Files - This is anything that is not a text file and they have a special encoding and a method to be read.
+
+MODES
+- r - This means the file is in Read Mode only.
+- w- The file is in Write Mode only.
+- a -The file is in append mode where we can only add items to the bottom of the file.
+- r+ The file is in both read and write mode.
+- The mode parameter is optional because the default value is r
+
+READING FILES
+- open() function to read a file.
+- To read an entire file in python we use the read() method on the file.
+- .close()method to close the file handle because it helps us save some memory. It also it prevents getting errors in our application.
+- To read an entire file in python we use the read() method on the file.
+- To read only a single line we use the readline() method.
+- To read many lines we use the readlines() method.
+- Here the readlines() returns a list of all the lines in our file separated \n new line tags.
+- split() method to transform data into a list of words which we loop through 
+
+-Python has a with operator that can simplify how we read and write files. The operator creates a context manager that automatically closes the file when you are done
+-
+CSV parser
+- Comma Separated Values are files that store a large number of variables and data. They act Like a simple spreadsheet. Parsing through CSVs and manipulating data is one of a Python developers greatest skills. 
+
+Flask
+- Flask is a web framework that has tools that allow us to create web applications.
+- It belongs to a category of web frameworks known as a micro-framework. This means Flask contains very few dependencies out of the box. It allows the developer to take the driver's seat and have full creative control over the application.
+Flask has two main dependencies:
+1. Werkzeug - This provides flask with _routing_,_debugging_ and _web server_ capabilities.
+2. Jinja 2 - This provides template support for flask.
+
+WEB CLIENTS AND SERVERS
+- Internet, refers to millions of networks that are connected to allow devices (computers, laptops, tablets, phones, etc) to communicate with one another, and access content.
+- Internet Protocol address, or IP address - is an address for the laptop/omputer. This address is assigned by an Internet Service Provider (ISP).
+- IP addresses are represented with a set of four groups of numbers separated by periods, like this: _198.185.159.145_
+- You may also see an additional number after an IP Address that's separated from the others by a colon, like this: _198.185.159.145:43_
+- This additional number is a port number. It indicates an even more specific location information will travel to at the particular address.
+
+CLIENT-SERVER PROCESS
+Requests
+- The client is usually a web browser, like Chrome, Firefox, Safari, or Internet Explorer.
+- And making a request usually looks like entering a web address in the browser's _URL bar_, clicking a link, or submitting a form.
+- When you create a request, the client constructs a message. This message must be formatted using a strict set of rules, or protocol, known as Hypertext Transfer Protocol (HTTP).
+- Before the location of the server can be found, the IP address must be identified using the web address provided in the client's request message. This is the job of the DOMAIN NAMING SYSTEM or DNS SERVERS.
+Responses
+When the content is collected, the server returns it in a response back to the client. The response is interpreted by the client. 
+
+Terminology
+* CLIENT: A computer program that sends a request to another program for data or services (e.g., a web browser is a client that sends requests to a web server).
+* SERVER or WEB SERVER: A computer program or device that uses HTTP to distribute information to a client.
+* INTERNET PROTOCOL (IP) ADDRESS: A set of numbers separated by periods that uniquely identifies a device on the Internet.
+* PORT NUMBER: Part of the addressing information used to identify the sender/receiver of requests at an IP address (e.g., 43 is the port number with this IP address: 198.185.159.145:43).
+* INTERNET SERVICE PROVIDER (ISP): A company that provides access to the Internet and assigns an IP address to the connecting device.
+* HYPERTEXT TRANSFER PROTOCOL (HTTP): A protocol that defines how requests are formatted, transmitted and processed between web clients and web servers.
+* DOMAIN NAMING SYSTEM (DNS) SERVERS: The "address book" of the Internet; servers that maintain all domain names and translate them to Internet Protocol (IP) addresses.
+* WEB RESOURCE: The target of a web address; Examples of web resources include files, documents, images, videos, stylesheets, scripts.
+
+That address is technically called the URL, short for Uniform Resource Locator, or URI, short for Uniform Resource Identifier. (The difference is largely semantics.) 
+
+REQUIRED URL ELEMENTS -> http://www.moringaschool.com/about
+1. SCHEME
+- The scheme defines how the client locates or acts upon the requested resource.
+- In our example, the client will make a request using the _http://_ scheme. 
+- Other schemes include _ftp_, _mailto_, and _file_. 
+- The scheme is always followed by a colon; for the http scheme, a colon and two slashes (://).
+2. HOST
+- The host provides the details of where the requested resource is located. 
+- The host in a URL is either the domain name for the IP address or the IP address itself. 
+- In our example, the host is _www.moringaschool.com_.
+3. PATH
+- The path consists of one or more segments separated by slashes and provides the name for identifying the resource requested. 
+- In our example, the path indicates the resource: _/about_. This directs to the _About_ page of the Moringa school website.
+
+OPTIONAL URL ELEMENTS
+Not all elements in a URL are required. Here are two that are optional.
+1. ? Query ->  _https://www.python.org/search/?q=python3_
+- There may be times where the URL contents must provide additional details for a resource to be identified.
+- After the path in the URL, we see a ? symbol which indicates the beginning of a query string.
+- You'll see our search parameter has a key of _search_ and a value of _internet_. 
+- Query parameters are separated by the & symbol when there is more than one.
+- With this information, the server will use the value to query the database for only the lessons that have the term "internet" in them.
+2. # Fragment -> _https://docs.python.org/3.6/tutorial/#the-python-tutorial_
+- Fragments begin with a # symbol and contain information that's typically processed by the client, rather than the server.
+- In this example, "the-python-tutorial" is the id of a div in the HTML document that is returned. 
+- The HTML page is extremely long but by adding the fragment, the browser will position the display of the page precisely at that element when displayed.
+- If you remove the fragment, the position returns to the default top of the document.
+
+Terminology
+1. UNIFORM RESOURCE IDENTIFIER (URI)/UNIFORM RESOURCE LOCATOR (URL): The web address which specifies the location of the requested web resources.
+2. SCHEME: The part of the URL that indicates the protocol to be used in communication (e.g. http://).
+3. HOST: The part of the URL that contains the domain name.
+4. PATH: The part of the URL that contains the resource name.
+5. QUERY STRING: An optional part of a URL that contains parameters for querying a database; begins with the ? symbol; often used in a search request.
+6. FRAGMENT: An optional part of a URL that contains details for where the browser should display the information (e.g. on a particular div).
+
+HTTP REQUEST-RESPONSE CYCLE
+Client HTTP Requests
+- When the client triggers a new HTTP request, the request includes four elements that will be sent to the server:
+         i) Method
+         ii) Path
+         iii) Headers
+         iv) Body
+         
+i) HTTP Method
+- HTTP methods, also known as _verbs_, indicate the kind of action that the client is requesting be done in the server. 
+- The two most frequently used methods are the ones that are supported by all browsers: 
+GET and POST. 
+- A request with a GET method indicates that a resource is being _retrieved_. 
+- A request with a POST method indicates that the resource is being _changed_ - _possibly added_, _updated_ or _deleted_.
+
+ii) Path
+- The path identifies the web resource that should be retrieved (GET) or acted upon (POST).
+- In our example, _http://www.moringaschool.com/_, the resource _/immersive_ is known as the path.
+
+iii) Headers
+- Request headers are part of the request message protocol and provide the server with more information about the client, the server and the request.
+Here are some examples of header fields that are included in a request message:
+         1. Host: This is the host or domain name of the server. In our example: www.moringaschool.com.
+         2. User-agent: This is the software acting on behalf of the user to make the request; in our example, this would be our browser (Chrome, Firefox, etc)
+         3. Accept-language: This includes the human languages that are acceptable for the response.
+
+iv) Body
+- The body contains data beyond the contents of the URL and headers that needs to be transmitted to the server. 
+- For example, if a user submits a form with data, the resulting POST request would need to include all of the data inputted so the server could store the information. 
+- This data is delivered in the body of the request.
+
+Terminology
+* HTTP METHOD: The kind of action that the client is requesting to be done in the web server, also known as a verb. Most frequently used HTTP methods: GET and POST.
+* GET: A request method that retrieves information from the server but does not change anything on the server. Example: request to see a homepage for a site.
+* POST: A request method that acts upon the resource by adding, updating or deleting information on the server. Example: submitting a form to join a mailing list which adds your name to the list.
+* HTTP REQUEST HEADER: The first lines of an HTTP request message that include information about the client, server and the request.
+* HTTP REQUEST BODY: Data that needs to be transmitted to the server in the HTTP request message (like data from a submitted form).
+
+HTTP RESPONSES
+After a server receives an HTTP request, it will respond with a message that consists of the following three elements:
+         1. Status
+         2. Headers
+         3. Body
+1. Status
+The first line of a response message is the status which includes a status code and reason phrase. 
+-  The HTTP status code is a three-digit number that indicates how the request was processed (or not). 
+- Each code is also accompanied by a reason phrase which is not read by the client but is intended for humans to provide a brief description of the status code.
+Below is a list of the five status code classes determined by the first digit of the code.
+         a) 1xx Informational
+- Status codes beginning with 1 indicate the request was received. This class of code is rarely used.
+         b) 2xx Success
+- Status codes beginning with 2 indicate the request was received and handled successfully.
+                  Examples
+      - 200: OK
+      - 201: Created
+         c) 3xx Redirection
+- Status codes beginning with 3 indicate that additional action is required to complete processing the request.
+                  Examples
+       - 301: Moved permanently
+       - 302: Moved temporarily
+       
+         c) 4xx Client errors
+Status codes beginning with 4 indicate that something was wrong about the request.
+                  Examples
+       - 400: Bad Request (the request used invalid syntax)
+       - 401: Unauthorized (you have to log in)
+       - 403: Forbidden (you're logged in, but not allowed to make this request)
+       - 404: Not Found
+       - 422: Unprocessable (the request had valid syntax but the instructions it contained were invalid)
+       
+         d) 5xx Server errors
+Status codes beginning with 5 indicate that something went wrong on the server side, such as a bug in the code or a server that went down.
+                  Examples
+       - 500: Internal Server Error (usually a bug in the server code)
+       - 502: Bad Gateway (the server sent the request to another server and got an invalid response)
+       - 503: Service Unavailable (the server is overloaded or down for maintenance)
+
+Headers
+- Like request headers, response headers include additional protocol providing more details about the HTTP response.
+- Some examples of response header fields include:
+         * SERVER: The name of the server where the response is coming from.
+         * CONTENT-LANGUAGE: The human language(s) of the content.
+         * CONTENT-LENGTH: How long the response body is in 8-bit bytes.
+Body
+The response body includes all of the content for the resource requested. You'll often hear it referred to as the payload.
+
+Terminology
+         STATUS CODE: First line of the response message from the server consisting of a three-digit number indicating the status of the request. Example: 200 indicates that the request was successfully processed.
+         STATUS REASON: The human language interpretation of the status code, not read by the client but intended for humans.
+         PAYLOAD: The data that was requested in the original request message that is not protocol. Example: the payload for a request for the main page of a website would be the actual HTML document content.
+
+- A VIRTUAL ENVIRONMENT is a private copy of the Python interpreter that allows us to install packages privately. 
+- This means all the third party modules will only be available in that environment.
+- This is very useful because it prevents the packages from cluttering our system and also prevents conflicts.
+
+- All flask applications must create an application instance.
+- The web server passes all the requests it receives to this object for handling. This uses a protocol called Web Server Gateway Interface.
+
+Routes and view functions
+Browsers send requests to the web servers which in turn send the request to the application instance. The application instance needs to know what code to execute depending on the request received.
+DEFINING A ROUTE.
+Routes in flask are defined using the app.route() decorator.
+SETTING UP A SERVER
+Flask has an run() method that launches the flask development server. First we check if the script is run directly. During development it is advisable to have the debug mode set to True. This activates the debugger and reloader
+-
+
+Macros
+- Macros are the Jinja equivalent to python functions. It allows us to group blocks of our code's logic that will be reused multiple times.
+
+- A filter is passed into a variable block to modify the content of of the block and are added after the variable with a pipe | character.
+- The truncate filter shortens a variable size according to the characters we add to its parameters.
+

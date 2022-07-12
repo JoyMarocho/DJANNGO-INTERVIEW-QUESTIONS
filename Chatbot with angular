@@ -1,0 +1,11 @@
+CREATIG A CHATBOT 
+1. git clone
+2. ng new chatbot
+3. cd chatbot^C
+4. npm install api-ai-javascript -D
+5. Go to angular.json/ .angular-cli.json and change "prefix": "app" To "prefix": ""
+FEATURE MODULE 
+6. ng g module chat
+7. ng g service chat/chat (-m chat)
+8. ng g component chat/chat-dialog -m chat
+9. 

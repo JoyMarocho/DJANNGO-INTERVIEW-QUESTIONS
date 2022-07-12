@@ -1,0 +1,1067 @@
+Most frequently asked Mobile Testing Interview Questions and Answers:
+These are some top basic and advanced mobile testing and mobile application testing interview questions and answers for freshers and experienced candidates.
+
+Q1) WHAT IS THE DIFFERENCE BETWEEN MOBILE DEVICE TESTING AND MOBILE APPLICATION TESTING?
+Ans. Mobile device testing means testing the mobile device and mobile application testing means testing of the mobile application on a mobile device.
+
+Q2) WHAT ARE THE TYPES OF MOBILE APPLICATIONS?
+Ans. Mobile applications are of three types:
+         > Native Application– Native app installed from application store like Android’s google play and apple’ app store. The application which can be installed into your devices and run is known as a native application for E.G. whats App, Angry birds etc.
+         > Web Application– Web applications run from mobile web browsers like Chrome, Firefox, Opera, Safari etc using mobile network or WIFI. E.G. of web browser applications are m.facebook.com, m.gmail.com, m.yahoo.com, m.rediffmail.com etc.
+         > Hybrid Application- Hybrid apps are combinations of native app and web app. They can run on devices or offline and are written using web technologies like HTML5 and CSS. For E.G. eBay, Flipkart etc
+
+Q3) HOW TO TEST CPU USAGE ON MOBILE DEVICES?
+Ans. There are various tools available in the market like google play or app store from where you can install apps like CPU Monitor, Usemon, CPU Stats, CPU-Z etc these are an advanced tool which records historical information about processes running on your device.
+
+Q4) WHAT ARE THE DEFECTS TRACKING TOOLS USED FOR MOBILE TESTING?
+Ans. You can use same testing tool which you use for web application testing like QC, Jira, Rally, and Bugzilla etc.
+
+Q5) WHAT ALL MAJOR NETWORKS TO BE CONSIDERED WHILE PERFORMING APPLICATION TESTING?
+Ans. You should test the application on 4G, 3G, 2G, and WIFI. 2G is a slower network, it’s good if you verify your application on a slower network also to track your application performance.
+
+Q6) WHEN PERFORMING SANITY TEST ON THE MOBILE APPLICATION WHAT ALL CRITERIA SHOULD BE TAKEN INTO CONSIDERATION?
+Ans.
+         > Installation and uninstallation of the application
+         > Verify the device in different available networks like 2G, 3G, 4G or WIFI.
+         > Functional testing
+         > Interrupt testing- Able to receive the calls while running the application.
+         > Compatibility testing – able to attach the photo in message from gallery
+         > Test application performance on a different handset.
+         > Make some negative testing by entering the invalid credentials and test the behavior of the application.
+
+Q7) WHICH THINGS TO CONSIDER TESTING A MOBILE APPLICATION THROUGH BLACK BOX TECHNIQUE?
+Ans.
+         > By testing your application on multiple devices.
+         > By changing the port and IP addresses to make sure the device is getting connected and disconnected properly.
+         > By making calls and sending messages to other devices.
+         > By testing your web application on different mobile browsers like Chrome, Firefox, opera, dolphin etc.
+
+Q8) WHAT IS THE LATEST VERSION OF IOS?
+Ans. iOS 8. (This changes quite often, so please check the apple site for most recent info)
+
+Q9) WHAT IS THE LATEST VERSION OF ANDROID?
+Ans. Lollipop 5.0–5.0.2 (also changes often). See all here.
+
+Q10) WHAT IS THE EXTENSION OF ANDROID FILES?
+.apk (Android application package)
+
+Q11) WHAT IS THE EXTENSION OF IOS FILES?
+Ans. .ipa
+
+Q12) WHAT IS THE FULL FORM OF MMS?
+Ans. Multimedia Messaging Services
+
+Q13) What are MT and MO in SMS?
+Ans. Sending message is known as MO (Message originate) and receiving the message is known as MT(Message Terminate)
+
+Q14) What is WAP?
+Ans. WAP is Wireless Application Protocol used in network apps.
+
+Q15) What is GPRS and how it works?
+Ans. GPRS is General Packet Radio Service which works on a mobile network with the help of IP transmissions. GPRS provides the transmission of IP packets over existing cellular networks. It provides you internet services on mobile.
+
+Q16) WHAT IS THE LATEST VERSION OF WINDOWS?
+Ans. Windows 11
+
+Q17) WHAT DO YOU MEAN BY STREAMING MEDIA?
+Ans. Streaming is a process of downloading the data from the server. Streaming media is the multimedia that is transferred from server or provider to the receiver.
+
+Q18) WHAT ARE THE AUTOMATION TOOLS AVAILABLE FOR MOBILE APPLICATION TESTING?
+Ans. There are many automation tools available in the market for mobile application testing but iPhone Tester is one of the best tools to test the application on iPhones and screenfly for android devices.
+
+Q19) WHAT IS THE BEST WAY TO TEST DIFFERENT SCREEN SIZES OF THE DEVICES?
+Ans. Using emulator. See example here.
+
+Q20) WHAT IS THE BASIC DIFFERENCE BETWEEN EMULATOR AND SIMULATOR?
+Ans. The emulator is based on hardware and software wherein simulator is based on software. Simulation is a system that behaves similar to something else while emulation is a system that exactly behaves like something else.
+
+Q21) WHAT ARE THE COMMON CHALLENGES IN MOBILE APPLICATION TESTING?
+Ans. Working on different operating systems, a variety of handsets, different networks, a variety of screen size. Read more here => 5 Mobile testing challenges and solutions.
+
+Q22) WHAT ARE THE TOOLS BASED ON CLOUD-BASED MOBILE TESTING?
+Ans. Seetest, Perfecto Mobile, BlazeMeter, AppThwack, Manymo, DeviceAnywhere etc.
+
+Q23) WHAT WEB SERVICES ARE USED BY A MOBILE APP?
+Ans. They are many depend upon the application. SOAP and REST web services are used but RESRful is more common now.
+
+Q24) WHAT ALL DEVICES HAVE YOU WORKED TILL NOW?
+Ans. Android, Symbian, Windows, iPhone etc.
+
+Q25) HOW TO CREATE EMULATOR ON ANDROID?
+Ans. Give a name in name field -> select target API from the list -> enter the size -> select the required skin section -> click on create AVD -> select the required AVD -> click on start button -> launch it
+
+Q26) DOES SELENIUM SUPPORT MOBILE INTERNET TESTING?
+Ans. Yes, it does, Opera browser is used for Mobile internet testing.
+
+Q27) DOES SELENIUM SUPPORT GOOGLE ANDROID OPERATING SYSTEM?
+Ans. Yes, Selenium 2.0 supports Android Operating System.
+
+Q28) NAME DEBUGGING TOOLS FOR MOBILE?
+Ans. Errors can be verified by the generated logs. We can use configuration utility on iOS and android monitor.bat on android. Here are few to name Android DDMS, Remote Debugging on Android with Chrome, Debugging from Eclipse with ADT, Android Debug Bridge, iOS simulator etc.
+
+Q29) NAME MOBILE AUTOMATION TESTING TOOLS YOU KNOW?
+Ans. 
+        > Paid tools: Ranorex, Silk Mobile, SeeTest
+        > Free tools: Appium, Robotium, KIF, Calabash
+
+Also, read => 5 best Android application testing tools.
+
+Q30) WHAT IS THE STRATEGY USED TO TEST NEW MOBILE APP?
+Ans.
+         > System integration testing
+         > Functional testing
+         > Installation and uninstallation of the app
+         > Test HTML control
+         > Performance
+         > Check in multiple mobile OS
+         > Cross browser and cross-device testing
+         > Gateway testing
+         > Network and Battery testing
+
+Q31) WHAT DOES A TEST PLAN FOR MOBILE APP CONTAIN?
+Ans. Test plan for mobile app is very similar to software app
+         a.) Objective
+         b.) Automation tools required
+         c.) Required features to be tested:
+                  - network
+                  - security
+                  - performance
+                  - size
+                  - battery
+                  - memory
+         d.) Features not to be tested
+                  - display size
+                  - resolution
+         e.) Test cases
+         f.) Test Strategy
+         g.) Tested by
+         h.) Time required
+         i.) No. of resources required
+         
+Q32) WHY MOBILE PHONE HAS 10 DIGIT NUMBERS?
+Ans. The number of digits in a mobile phone number decide the maximum mobile phones we can have without dialing the country code.
+
+Q33) EXPLAIN CRITICAL BUGS THAT YOU COME ACROSS WHILE TESTING IN MOBILE DEVICES OR APPLICATION?
+Ans. Explain the example as per your experience. Here are top 10 mobile app risks.
+
+Q34) NAME MOBILE APPLICATION TESTING TOOLS
+Ans.
+         > Android
+         > Android Lint
+         > Find Bugs
+         > iPhone
+         > Clang Static Analyzer
+         > Analyze code from XCode
+Further reading =>> What is Xcode and how to use it?
+
+Q35) Full form of the various extensions
+Ans.
+         > apk – Android Application Package File
+         > exe – Executable Files
+         > iPA –iOS App Store Package
+         > prc – Palm Resource Compiler
+         > jad – Java Application Descriptor
+         > adb – Android Debug Bridge
+         > Aapt – Android Asset Packing Tool
+
+Q36) HOW TO TEST DIFFERENT SCREEN SIZES OF THE DEVICES
+Ans. Using Emulators.
+
+Q37) WHAT IS WEB SERVICE?
+Ans. It is a component used in software to perform the task. It is like an interface between one program to another.
+
+Q38) WHAT ARE THE ROLES AND RESPONSIBILITIES ON A CURRENT MOBILE APPLICATION YOU ARE TESTING?
+Ans. Answer based on your experience on the current project you are working on. Also, read mobile testing career guide.
+
+Q39) HOW TO CREATE THE LOG FILE?
+Ans. Using CAT.
+
+Q40) HOW CAN WE INSTALL THE BUILD ON IPHONES AND IPADS?
+Ans. Using iTunes.
+
+Q41) CAN WE USE QTP/UFT FOR MOBILE AUTOMATION TESTING?
+Ans. Yes, with the help of Seetest add-in.
+
+Q42) IS CLOUD BASE MOBILE TESTING POSSIBLE? NAME ANY?
+Ans. Yes, Perfecto Mobile and Seetest.
+
+Q43) WHERE TO PERFORM FORWARD COMPATIBILITY TESTING?
+Ans. This can be done with new versions of the mobile application.
+
+
+
+
+TOP 20 MOBILE TESTING INTERVIEW QUESTIONS & ANSWERS IN 2022
+1) EXPLAIN WHAT IS THE DIFFERENCE BETWEEN WEB TESTING AND WAP TESTING?
+         > WAP Testing: It is the testing the WAP (Wireless Application Protocol) used in network applications
+         > Web Testing: It is related mainly to the testing of web applications such as websites and portals
+         
+2) LIST OUT SOME OF THE AUTOMATED MOBILE TESTING TOOLS?
+- For mobile testing, two kinds of automation tools are available to test mobile Applications.
+         > Object based mobile testing tools: Jama solution, Ranorex,
+         > Image based mobile testing tools: RoutinBot, Egg Plant, Sikuli
+         
+3) EXPLAIN WHAT IS THE DIFFERENCE BETWEEN SIMULATOR AND EMULATOR?
+         > Simulator: It is an electronic network simulation equipment or a base station equipment for CDMA/CMA mobile phones. It helps in latching home networks without roaming services and can make Voice; Data calls, SMS,
+         > Emulator: It is a software to test mobile application without a live handset
+         
+4) LIST OUT THE TYPES OF MOBILE APP TESTING?
+- The types of mobile app testing includes
+         Usability Testing
+         Compatibility Testing
+         Interface testing
+         Services testing
+         Low-level resource testing
+         Performance Testing
+         Operational testing
+         Installation tests
+         Security Testing
+         
+5) MENTION WHAT IS THE ANDROID TESTING STRATEGY?
+The standard Android testing strategy must include the following test
+         Unit Test
+         Integration Test
+         Operation Test
+         System Test
+         
+6) EXPLAIN ANDROID TESTING FRAMEWORK?
+- Android testing framework includes three segments
+         > Application Package: It is the target application that requires to be tested
+         > Instrumentation TestRunner: It is a Test Case runner that runs test cases on target application. It includes an SDK tools for building test and a tool that provides APIs for writing program that control an android device, for example, MonkeyRunner
+         > Test Package: It includes two classes, Test case classes, and Mock objects. Test case classes include test methods to perform on target application, while mock object includes mock data that will be used as sample input for test cases.
+         
+7) LIST OUT THE BEST PRACTICES FOR ANDROID TESTING?
+> Developer should prepare the test cases at the same time when they are writing the code
+> Together with source code all test cases should be stored
+> Use continuous integration and execute tests every time the code is changed
+> Avoid using rooted devices and emulators.
+
+8) MENTION WHAT ARE THE COMMON BUGS FOUND WHILE MOBILE TESTING?
+> Critical: Your phone system crash when testing particular feature in your device
+> Block: Unable to do anything though phone is on unless you reboot your device
+> Major: Unable to perform a function of a particular feature
+> Minor: Under minor bugs usually GUI bugs fall.
+
+9) EXPLAIN WHAT IS ROBO-ELECTRIC TESTING FRAMEWORK?
+> Testing done on Android Testing Framework for emulators or device is difficult. Running and building test case sometimes takes lots of development effort. Robo-electric framework allows you to run Android test directly on JVM without the need of a device or an emulator.
+
+10) EXPLAIN HOW A/B TESTING IS DONE FOR IOS APP?
+- A/B testing for ios includes three steps
+         > Configure a test: It prepares two versions of your iOS app (A&B) and test metric
+         > Test: Tests two iOS versions above on devices simultaneously
+         > Analyze: It select and measure better version to release
+
+11) WHILE PERFORMING END TO END MOBILE TESTING WHAT ARE THE MAJOR CRITERIA, YOU HAVE TO TAKE IN CONSIDERATION?
+         > Installation
+         > Application launching without having network
+         > Uninstallation of app
+         > Orientation of app if it supports
+         > Testing application performance on a different kind of devices and network scenarios
+         > Testing the application response how it is responding
+
+12) LIST OUT THE FEATURES DOES MONKEY TOOL PROVIDES?
+- Monkey tools provide features like
+         > Basic configuration options
+         > Operational constraints
+         > Event types and frequencies
+         > Debugging options
+
+13) MENTION WHAT SHOULD BE THE SELECTING CRITERIA FOR TEST AUTOMATION TOOL FOR MOBILE TESTING?
+For mobile testing, the test automation tool should have following criteria
+         > Multi-platform support: Ensure that the tool does support your current and future target platform
+         > Script Usability: Object-based tools provides a high degree of the script usability
+         > Jailbreak Requirement: If the tool uses rooted devices, it may not support latest OS version and may be incompatible with MDM policies
+         > Source Code Changes: Sharing source code may not be possible always
+         > Lead time for New OS version: How soon tool can support new iOS/android/other OS version
+         
+14) WHEN TO CHOOSE AUTOMATION TESTING AND WHEN MANUAL TESTING?
+- Manual Testing
+         > If the application has new functionality
+         > If the application requires testing once or twice
+- Automate Testing
+         > If the regression tests are repeated
+         > Testing app for complex scenarios
+
+15) LIST OUT THE MOST COMMON PROBLEM THAT TESTER FACES WHILE DOING MOBILE TESTING IN CLOUD COMPUTING?
+- Challenges that tester faces while doing mobile testing are
+         > Subscription model
+         > High Costing
+         > Lock-in
+         > Internet connectivity issues
+         > Automation is image based and time-consuming
+         > Automation cannot be used outside the framework
+16) Explain what does mobile security testing includes?
+- Mobile security testing includes
+         > Checks for multi-user support without interfering with the data between them
+         > Checks for access to files stored in the app by any unintended users
+         > Decryption or Encryption method used for sensitive data communication
+         > Detect sensitive areas in tested application so that they do not receive any malicious content
+
+17) LIST OUT MOBILE APP TESTING?
+> Testing in all web browsers
+> Browsers very significantly across the devices
+> May support xHTML,HTML,WML,AJAX
+> Difficulty in Benchmarking the performance due to highly fragmented Market
+> Emulators do not capture all the attributes or characteristics of a device
+> Implementation of the specification may not be consistent across vendors and devices
+> In some situation, transcoder may not respect user experience factors
+
+18) EXPLAIN WHAT IS PORT TESTING?
+This testing is done to test the same functionality on different devices with different platforms. It is classified into two categories
+         > Device Testing
+         > Platform Testing
+         
+19) LIST OUT SOME IPHONE AND IPAD TESTING TOOLS?
+> iPhone tester: Test your web interface in an i-phone sized frame
+> Appium: It is a test automation tool used with native and hybrid ios application
+> iPad Peek: Test your web application using an iPad interface
+> Test Studio: It enables you to record, build and run automated tests for your iPad and iPhone applications.
+
+20) EXPLAIN HOW YOU CAN INSTALL SD CARD IN EMULATOR?
+> To install SD card in emulator, you have to use the command
+> MKsdcrd –I mySDCard 1024M mySdCardFile.img
+
+
+
+DEFINITION, TYPES & FUNCTIONS OF MOBILE TESTING
+1) WHAT IS MOBILE APPLICATION TESTING?
+> Mobile application testing means a process in which an application developed for handheld mobile devices is tested to ensure its functionality, usability, and consistency. Testers can perform mobile application testing manually or with automation.
+
+2) WHY IS MOBILE TESTING CRITICAL FOR BUSINESSES TODAY?
+> Testing is an indispensable part of every software development process. Mobile application is no exception: the growing number of mobile devices gives rise to a massive operation system fragmentation, screen sizes, and more. That is why tremendous attempts are made by QA teams to ensure the user’s seamless experience across various mobile devices without functionality bugs and issues. By putting the mobile application through rigorous testing, the product team can enhance the app’s ratings, as well as customer satisfaction for valuable referrals for even more downloads.
+
+3) WHAT IS THE KEY DIFFERENCE BETWEEN MOBILE DEVICE TESTING AND MOBILE APPLICATION TESTING?
+> Mobile device testing examines a device’s quality – by validating its hardware and software functions.This process aims to test features, i.e., screen, memory, camera, applications. It also consists of factory testing and certification testing.
+> Alternatively, mobile application testing means testing the mobile application on different mobile devices to ensure its consistency and functionality. After this process, you can measure the targeted application’s quality, whether it is well-suited for the device in terms of hardware, software, network connectivity, etc.
+
+4) HOW MANY TYPES OF MOBILE APPLICATIONS? WHAT ARE THEY?
+-There are three types of mobile applications:
+         > Native Application
+                  - A native application is a software application built in a specific programming language for the particular device platform, iOS or Android. It can be easily installed into your devices and available in the application store (Google Play for Android and App Store for iOS), for example, WhatsApp or Facebook.
+         > Web Application
+                  - A web application runs inside a mobile web browser, such as Chrome, Firefox, Opera, Safari using a mobile network or WIFI. For instance, some of the web applications are m.facebook.com, m.gmail.com, etc.
+         > Hybrid Application
+                  - A hybrid application is a combination of a native app and a web app. Even though this type of application can be installed on a device just like a native app, it is a web app built with HTML, CSS, or JavaScript and runs in a webview.
+                  
+5) LIST OUT THE TYPES OF MOBILE APP TESTING
+         > Usability Testing
+         > Compatibility Testing
+         > Interface Testing
+         > Services Testing
+         > Low-level resource Testing
+         > Performance Testing
+         > Operational Testing
+         > Installation Testing
+         > Security Testing
+         
+6) WHAT ARE THE COMMON CHALLENGES IN MOBILE APPLICATION TESTING FACED BY MOST TESTERS?
+> Executing test cases with various operating systems
+> Testing application’s functionalities on a wide range of handsets
+> Screen size fragmentation
+> Testing applications on different mobile networks
+> Different application types (native, hybrid or web app) require different ways to test
+> The choice of the right mobile testing tool for QA team
+
+MOBILE TESTING PLANNING AND STRATEGY
+7) WHAT TYPES OF MOBILE TESTING SHOULD BE INCLUDED IN THE ANDROID TESTING STRATEGY?
+> A standard Android strategy can include these testing types: unit testing, system testing, integration testing, and operation testing subject to the features available of the tested mobile application. Other types of tests would also be performed if required, depending on the application’s features.
+
+8) WHAT IS THE STRATEGY USED TO TEST A NEW MOBILE APP? WHICH TYPES OF TESTING SHOULD BE INCLUDED?
+> A comprehensive test strategy should be planned based on specific guidelines to secure an effective performance of a new mobile application. Here are some of the essential points:
+         => Selection of the devices – Understanding the market’s demand and the commonly used devices will be highly recommended before choosing the set of testing devices. (This choice could be dependent on the stakeholders or the app builders’ consideration)
+         => Utilizing emulators – The use of emulators is useful, especially in the initial stages of development, since they allow quick checking of the app. It is a system that runs software from one environment to another environment without changing the software itself. It also duplicates the features and works on the real system.
+         => Types of testing:
+As for testing a new mobile application, several types of tests should be involved in order to ensure the app works as expected. Therefore, the strategy is all tied into these following types of testing:
+                  * Functional testing
+                  * System integration testing
+                  * Installation and uninstallation of the application
+                  * HTML control testing
+                  * Performance testing
+                  * Testing multiple mobile OS
+                  * Cross-browser and cross-device testing
+                  * Gateway testing
+                  * Network and battery testing
+                  
+9) WHAT DOES AN AUTOMATED TEST PLAN FOR MOBILE APP CONTAIN?
+- Similar to the plan of other application under tests, a plan designed for automated mobile application testing should include:
+         i. Testing scope and objectives
+         ii. Selected automation tool
+         iii. Required features to be tested:
+                  – Performance
+                  – Security
+                  – Network
+                  – Size
+                  – Battery memory
+         iv. Test cases
+         v. Test strategy
+         vi. Person in charge
+         vii. Time frame
+         viii. Resources required
+For further test automation strategies and best practices, please have a glimpse into the Automated Tester’s Checklist and consider which strategies are best suited to your team.
+
+10) LIST OF THE BEST PRACTICES FOR ANDROID TESTING
+         > Developers must prepare the test cases when they are writing the codes simultaneously.
+         > All of the test cases should be stored and well-documented for reusability.
+         > Apply continuous integration and execute tests once the code is changed
+         > Avoid using rooted devices and emulators to achieve the most reliable results
+
+11) WHILE PLANNING TO PERFORM AN END TO END MOBILE TESTING, WHAT ARE THE PRIMARY CRITERIA YOU HAVE TO CONSIDER?
+- In an end-to-end mobile testing process, QA teams test the entire application from beginning to end to ensure its flow behaves as expected. Throughout these steps, there are some of the many critical requirements to consider:
+         > Is the application successfully installed across various mobile models, gadgets, and operating systems?
+         > Does the application launch smoothly with or without a network?
+         > What are the orientations that the application supports and how do they work?
+         > Does the application perform well on different kinds of devices and network scenarios?
+         > How does the application respond when it is used? (i.e. response speed and time)
+
+PERFORMING MOBILE TESTING         
+12) WHAT IS THE DIFFERENCE BETWEEN SIMULATORS AND EMULATORS?
+- Both Emulators and Simulators are virtual devices that are not real phones but have the same functionality as real handsets. The following table shows the significant difference between a simulator and an emulator:
+         
+ 	                                    SIMULATOR 	                                               EMULATOR
+OBJECTIVE	         To simulate the internal behavior of the device, not mimic hardware	         To emulate or mimic both hardware and software features
+Internal structure	         Written in a high-level language	                                    Written in machine-level assembly language
+Debugging capability	         Can be problematic in terms of debugging purpose	                           More suitable for debugging purpose
+
+See more on Compare Emulators, Simulators, and Real Devices in Mobile Testing
+
+13) HOW TO TEST CPU USAGE ON MOBILE DEVICES?
+> There are multiple tools available on Google Play or App Store designed for CPU usage testing, such as CPU Monitor, CPU Stats, Usemon, CPU-Z, etc. These are an advanced tool that records historical information about processes running on your device.
+
+14) WHAT ARE ALL MAJOR NETWORKS TO BE CONSIDERED WHILE PERFORMING APPLICATION TESTING?
+> Performance application testing should cover all of the scenarios on different networks: 4G, 3G, 2G, and WIFI. Although 2G is a slower network, it is better to test on a slower network in order to track the application performance.
+
+15) WHEN PERFORMING A SANITY TEST ON THE MOBILE APPLICATION, WHAT CRITERIA SHOULD BE INCLUDED?
+         > Installation and uninstallation of the application
+         > Performance in different available networks: 2G, 3G, 4G, 5G, or WIFI.
+         > Functional testing
+         > Interrupt testing
+         > Compatibility testing
+         > Application performance on other handsets
+         > The behavior of the application when entering invalid credentials
+
+16) WHAT IS THE BEST WAY TO TEST DIFFERENT SCREEN SIZES OF THE DEVICES?
+> Using emulators is the most effective way in case there are many different screen sizes of devices to test.
+
+17) What are the common bugs that would often be found during the mobile testing process?
+- In general, some mobile testers classify the most frequently-found bugs into the four types:
+         > Critical bugs: The device’s operating system crashes when testing the application’s particular feature.
+         > Block bugs: Unresponsiveness of performance occurs even though the device status is still on.
+         > Major bugs: A specific feature of the application is unable to perform its functionality.
+         > Minor bugs: GUI bug is commonly the main case falling into a minor bug list.
+- Additionally, some other kinds of bugs are also found during the mobile application testing process, for example:
+         > Slow performance of an application
+         > Consumption more from the battery by an application
+         > Completely unresponsive behavior of an app
+         
+18) EXPLAIN HOW A/B TESTING IS DONE FOR THE IOS APP?
+- The A/B testing for iOS can be done through three steps:
+         > Step 1: Configuring a test that prepares two versions of your iOS application (A&B) with required test metrics
+         > Step 2: Testing both of the iOS versions above on devices simultaneously
+         > Step 3: Analyzing the test results to measure and select which will be the better version to release
+         
+19) WHEN SHOULD A QA TEAM CHOOSE MANUAL TESTING OR AUTOMATION TESTING FOR THEIR MOBILE TEST PROJECTS?
+- Automation testing has vastly increased testers’ speed and quality in the past decades. Understanding when to make such a transition, from manual testing to automated testing, is the first step to maximizing your team’s efficiency. Here are some of the critical points:
+         Manual Testing
+               * The application has new functionality.
+               * The application requires testing once or twice.
+         Automate Testing
+               * The release cycle needs a large amount of regression testing.
+               * The testing application requires complex scenarios.
+Check out this article to choose the right Automation Test Cases.
+
+20) LIST OF THE MOST COMMON PROBLEM THAT TESTERS FACE WHILE DOING MOBILE TESTING ON CLOUD COMPUTING
+- Executing mobile testing in Cloud Computing poses various challenges for both beginners and advanced testers.
+         > Subscription model:
+               * Even though Cloud solution offers testers a couple of advantages, there is a persistent concern about the subscription model.
+         > High costs:
+                * While Cloud services have been sold as cost-savings solutions, the reality is that these services can be more expensive. The challenge can arise from the cost of the talent needed, the migration process to the team’s mobile testing project.
+         > Difficulties in mobile automated testing:
+                * As for some projects applying automated testing, Cloud computing may come with a pain point for every tester involved. Because mobile automation testing is image-based, executing test cases on Cloud computing would become more challenging and time-consuming. Moreover, automation testing cannot be used outside the framework.
+                
+21) WHAT ARE THE ESSENTIAL THINGS TO REMEMBER WHILE TESTING APPS USING THE BLACK BOX TESTING METHOD?
+         > The application’s compatibility with multiple devices
+         > The device’s proper connection and disconnection while changing the IP or port address
+         > The capability to make calls and send messages to other devices
+         > The compatibility with multiple browsers (Chrome, Firefox, Opera, etc.)
+
+
+MOBILE TESTING FRAMEWORKS AND TOOLS         
+22) WHAT IS AN ANDROID TESTING FRAMEWORK?
+- One of the most standard testing frameworks for Android applications is the Android testing framework. It is comprised of three segments:
+         > Application Package
+                  * It is the target application that requires to be tested.
+         > Instrumentation Test Runner
+                  * This part of the framework serves as a Test Case Runner, allowing test cases to run on the target application. It includes two parts: an SDK tool for building test; and a tool that provides APIs for writing program which controls an Android device or an emulator outside of Android codes (i.e., MonkeyRunner)
+         > Test Package
+                  * It consists of two components: Test case classes and Mock objects. Test case classes constitute test methods to perform the on-target application, while mock objects include mock data used as sample input for test cases.
+                  
+23) WHAT IS A ROBOLECTRIC TESTING FRAMEWORK?
+> Testing applying the Android Testing framework with a device or an emulator is challenging. It takes the team’s tremendous development effort and time in building and running tests. And the Robolectric testing framework is considered as a solution to address this challenge.
+> Robolectric framework allows testers to run Android tests directly on JVM (Java Virtual Machine) without a device or an emulator’s need.
+
+24) WHAT IS THE LATEST VERSION OF IOS?
+> The latest version of iOS and iPadOS is 14.0. (This changes quite often, so please check the Apple site for the most recent info)
+
+25) WHAT IS THE LATEST VERSION OF ANDROID?
+> The latest version of Android is 12.0. The initial version of Android 12.0 was released on February 18th, 2021 on Google’s Pixel devices. (This changes quite often, so please check the Android site for the most recent info)
+
+26) WHAT IS THE EXTENSION OF ANDROID FILES?
+> .apk (Android application package)
+
+27) WHAT IS THE EXTENSION OF IOS FILES?
+> ipa (iOS App Store Package) file is an iOS application archive file that stores an iOS app. Each ipa file includes a binary and can only be installed on an iOS device.
+
+28) SUPPOSE YOU NEED TO EXECUTE A MOBILE APPLICATION TESTING, WHAT WOULD BE THE TECHNICAL CRITERIA YOU WILL CONSIDER WHILE SELECTING A TEST AUTOMATION TOOL?
+- When choosing the most appropriate test automation tool, in addition to affordability, it is essential to consider the following technical criteria:
+         > Multiple platform support
+         > Application under test
+         > Script Usability
+         > Jailbreak Requirement
+         > Source Code Changes
+         > Lead time for new OS version
+         
+29) HOW MANY TYPES OF AUTOMATION TESTING TOOLS ARE AVAILABLE FOR MOBILE DEVICES?
+- For mobile testing, there are two types of automation testing tools: object-based or image-based tools.
+
+30) CAN YOU NAME A FEW MOBILE TESTING TOOLS THAT ARE COMPATIBLE WITH ANDROID AND/OR IOS?
+=> Mobile testing tools only used for Android testing:
+         * Robotium
+         * UI automator
+         * Selendroid (Selenium for Android)
+=> Mobile testing tools only used for iOS testing:
+         * KeepItFunctional
+         * iOS Driver
+=> Mobile testing tools used for both Android and iOS testing:
+         * Katalon
+         * Apptim
+         * 21
+         * Kobiton
+         * Appium
+         * MonkeyTalk
+         * Ranorex Studio
+         * eggPlant
+         
+31) LIST OF SOME IPHONE AND IPAD TESTING TOOLS
+> iPhone tester: Test the web interface on an iPhone’s sized frame
+> Appium: Designed as a test automation tool used with native and hybrid ios application
+> iPad Peek: Test the web application using an iPad’s interface
+> Test Studio: This tool enables you to record, build, and run automated tests for your iPad and iPhone applications.
+
+
+
+
+
+MOBILE TESTING INTERVIEW QUESTIONS
+1. WHAT ARE THE VARIOUS TYPES OF MOBILE OPERATING SYSTEMS?
+         Android OS – Developed by Google Inc.
+         iOS – Developed by Apple Inc. 
+         Series 40 [S40] OS – Developed by Nokia Inc.
+         BlackBerry OS – Developed by BlackBerry Limited
+
+2. WHAT IS THE LATEST VERSION OF THE ANDROID MOBILE OPERATING SYSTEM?
+- Android 11 is the eleventh major release and the 18th version of Android, a mobile operating system developed by the Google-led Open Handset Alliance. It was released on September 8, 2020, and is the latest Android version to date.
+
+3. List of earlier versions of the Android operating system?
+         Android 1.0
+         Android 1.1
+         Android 1.5 Cupcake
+         Android 1.6 Donut
+         Android power 2.0
+         Android 2.2 Froyo
+         Android 2.3 Gingerbread
+         Android 3.0 Honeycomb
+         Android 4.0 Ice Cream Sandwich
+         Android 4.1 Jelly Bean
+         Android 4.4 KitKat
+         Android 5.0 Lollipop
+         Android 6.0 Marshmallow
+         Android Nougat 7.0
+         Android 8.0 Oreo
+         Android 9 Pie
+         Android 10
+         
+4. WHAT IS THE LATEST VERSION OF IOS AND IPADOS?
+- iOS 14/14 iPadOS 14
+- The latest versions of iOS 14 and iPadOS 14 have been announced at its annual WWDC 2020 event on June 22, 2020, with iOS 14 and iPadOS 14 released on September 16, 2020. All devices that support iOS 13 also support iOS 14.
+
+5. WHAT ARE THE DIFFERENT TYPES OF MOBILE DEVICES?
+- Mobile devices are usually handheld computers. They have many types depending on their characteristics such as physical dimensions, hardware and software capabilities, what they mean, and more.
+- Tablets
+- Mobile
+         
+6. DISTINGUISHES TABLETS AND SMARTPHONES BASED ON THEIR FEATURES.
+- TABLETS: What it is, tablets are portable computer devices. Unlike traditional computers, they do not have a keyboard or mouse, however, the entire screen is touch-sensitive.
+- SMARTPHONE: A smartphone is a powerful mobile phone designed to run a wide variety of applications in addition to providing phone service.
+
+7. WHAT ARE THE TYPES OF MOBILE TESTING?
+- There are 2 types of mobile testing:
+         > Automated testing
+         > Manual test
+         
+8. WHEN ARE MANUAL TESTING AND AUTOMATION TESTING DONE?
+- Manual testing is performed when new functionality is developed for the application and only a few times testing is required.
+- Automatic testing is used on applications in critical scenarios where regression tests have to be repeated.
+
+9. WHAT ARE THE 2 TYPES OF AUTOMATION DEVICES?
+- The 2 types of automation tools are 
+         > image-recognition-based automation tools and 
+         > object-recognition-based automation tools.
+
+10. WHAT ARE THE VARIOUS TYPES OF MOBILE APPLICATIONS?
+- There are three types of mobile applications: mobile web, native app, and hybrid app. The classification is based on development efforts and app redistribution strategy. Let us understand each of them in detail.
+
+11. DIFFERENCE BETWEEN A WEB APP, NATIVE APP, AND HYBRID APP?
+a) Web Apps:
+- Web applications are not real applications; They are websites that open on your smartphone with the help of a web browser. Mobile websites have a wide audience of all primary types of applications.
+         * Example – Great Education
+         * Benefits – Easy access.
+         * Easy development.
+         * Easy update
+         * Downside – Access to file systems and local resources is not available on websites.
+         * Many existing websites do not support offline capabilities.
+         * The website only needs to be opened in a web browser.
+While native and hybrid apps appear on the App Store and Google Play, web apps will not. Therefore, redistribution is not so sensible.
+
+b) Native Apps:
+- A native app has been developed specifically for one platform. It can be installed through an application store (such as the Google Play Store or Apple’s App Store).
+         Examples – Whatsapp, Facebook.
+             * Benefits – Can be accessed via the original application icon.
+             * They can take full advantage of all device features – camera, GPS, accelerometer, compass, list of contacts, and so on.
+             * Can use the device’s notification system and work offline.
+             * The best user experience.
+             * As it is found in the App Store, redistribution is easy.
+         Downsides:
+            * High cost for the creation of the app.
+            * Maintenance is high.
+c) Hybrid App:
+- These apps are a way of exposing content from existing websites in an app format. They can be described as a mixture of web apps and native apps.
+
+         Examples – Instagram, Wikipedia.
+                  * Benefit –
+                  * It is cheaper to develop a hybrid app than to develop a native app. It can be built for cross-platform use.
+                  * Maintenance is simple, as there are not many versions to maintain.
+                  * It can take advantage of some features available on the device.
+                  * It can be found in the App Store, making delivery easier.
+                  * It only has a browser embedded within the app.
+         Downside:
+             * Graphics are less accustomed to operating systems than native apps.
+             * Hybrid apps are slower than native apps.
+             
+12. WHAT IS MOBILE DEVICE TESTING?
+- This type of testing is usually being done to ensure the quality of the mobile device. Testing includes hardware and software testing for mobile. We will discuss here the different types of tests that are typically being done on mobile devices.
+         * unit-testing
+         * Factory testing
+         * Mobile app testing
+         * Hardware testing
+         * Battery (charging) test
+         * Receiving signal
+         * network test
+         * Protocol test
+         * Mobile game testing
+         * Mobile software compatibility test
+         * Certification testing before going into the mobile device market.
+
+13. WHAT IS MOBILE APP TESTING?
+- Mobile application testing is a process by which application software developed for handheld mobile devices is tested for its functionality, usability, and stability. The different types of tests performed on mobile devices are as follows:
+         * functional testing
+         * laboratory testing
+         * Performance test
+         * Memory leak test
+         * Trial interruption
+         * Usability test
+         * Installation test
+         * Certification test
+         * Security test
+         * main point
+
+14. WHAT IS THE DIFFERENCE BETWEEN DEVICE TESTING AND APPLICATION TESTING?
+- While device testing is typically being done to test mobile devices, mobile app testing will include testing an app that will be running on the selected device.
+- When we call it instrument testing, hardware becomes a part of testing. In the case of mobile application testing, it depends, that is, if hardware integration is required for the application under test, then hardware testing will be involved.
+- Automation is possible for mobile device testing as well as mobile application testing.
+
+15. WHAT ARE A SIMULATOR AND AN EMULATOR?
+- Simulator: It is an electronic network simulation tool or base station tool for CDMA / CMA mobile phones. It can and does help with home network latching without roaming services; Data call, SMS,
+- Emulator: This is software for testing mobile apps without a live handset
+
+16. WHY DO WE NEED AN EMULATOR/SIMULATOR?
+- If we are developing an application. Once the product is fully developed, as a part of mobile testing, we need to see if the application works with all major devices such as Android phones, iOS, Blackberry phones, and other different types of tablets and iPads. Is working as expected. To perform this type of investigation, we need to obtain each device which is very expensive to purchase and test such a large number of mobile devices. To solve this problem, we need a simulator/emulator.
+
+17. HOW IS TESTING DONE ON AN EMULATOR/SIMULATOR DIFFERENT FROM TESTING ON A REAL DEVICE?
+> Real Device:
+         * You have to spend a lot to get a real device
+         * It has a fast processing speed
+         * Network latency may be normal
+         * Debugging is not so easy
+         * Web applications can be tested in the usual way
+         * It always gives accurate results
+> Emulator / Emulation:
+         * It is almost free
+         * It is slower than real devices
+         * It has lower latency than actual devices
+         * It provides step-by-step debugging of the application
+         * Web applications are very easy to test
+         * It cannot simulate all types of user interactions; So it can sometimes give wrong results.
+         * It scores low when it comes to reliability.
+
+18. WHAT FEATURES CANNOT WE TEST ON A SIMULATOR/EMULATOR?
+- A simulator/emulator cannot mimic the following features –
+         * Mobile device battery
+         * Mobile device camera
+         * Interruptions such as incoming calls and SMS
+         * Not so realistic simulation for mobile device memory usage.
+
+19. WHAT IS CLOUD-BASED MOBILE TESTING?
+- Testing mobile applications with cloud-based devices seem to be the optimal option. This can help you overcome the disadvantages of real devices and simulators.
+- What are the benefits of using cloud-based devices?
+         a. Easy Availability
+         b. Ability to run mobile devices on multiple systems and networks
+         c. Not only does the cloud have the ability to test apps, but also the ability to update and manage
+         d. effective cost
+         e. High scalability
+         f. The same script can be run on multiple devices in parallel.
+         
+20. WHAT ARE THE DISADVANTAGES OF CLOUD-BASED DEVICES?
+         * Less Control
+         * There is no high level of protection
+         * Internet connection dependency
+Some useful cloud-based tools – Zamarin Test Cloud, Perfecto Mobile Continuous Quality Laboratory, Core Mobile Testing.
+
+21. WHAT IS AN INTERRUPTION TEST?
+- An application, while working, may face many interruptions such as incoming calls or network coverage outages and recovery. For this, it can be distinguished again –
+         * Incoming and outgoing SMS and MMS
+         * Incoming and outgoing calls
+         * Incoming notifications
+         * Battery drain
+         * Cable Entry and Removal for Data Transfer
+
+22. WHAT IS A USABILITY TEST?
+- Usability testing evaluates the application based on the following criteria for the efficiency of the target audience.:
+         * Effectiveness
+         * Satisfaction
+- It is very important to get usability testing in place from the initial stage of application design, and this should not be done only when the application is completed. Usability testing requires excessive involvement of users, and output can affect application design, which is very difficult to change in later stages of the project.
+
+23. WHAT ARE INSTALLATION TESTS AND UNINSTALL TESTS?
+- Installation testing verifies that the installation process goes smoothly without the user experiencing any difficulty. The uninstall test can be summarized in one line because “uninstalling should sweep the app-related data only once”.
+
+24. WHAT IS AN UPDATE TEST?
+- We need to be very cautious about mobile app updates. People often complain about applications not working satisfactorily after an update. Therefore, it is very important that under update testing, we ensure that the app was working before. In short, it should not break anything. Mobile application updates can occur in two ways – automatic update and manual update.
+
+25. WHAT IS A CERTIFICATION TEST?
+- To obtain a certificate of compliance, each mobile device needs to be tested against the guidelines set by various mobile platforms.
+
+26. WHAT IS A UI TEST?
+- In this type of testing, we check the user experience to ensure that we provide an excellent experience to our users, mobile UI testing is highly recommended.
+- It is your job as a tester to confirm that your application meets certain expectations, such as –
+         * Overall color scheme/theme of the device
+         * Style and color of the mouse
+         * The progress indicator on page loading
+         * Menus and how they are implemented and are specific items
+         * The overall response of applications on this device
+         * Screen orientation / resolution.
+
+27. WHAT ARE THE DIFFERENT TYPES OF UI VERIFICATION TOOLS?
+        The script:
+              * Screenfly is a free and easy-to-use tool. To use it, you have to type in Quirktools in your web browser. You will see the following screen.
+              * Enter the website under Test and click Go. Select the mobile device on which you want to view the website.
+        Browserstack:
+             * This is another great tool for testing the mobile UI. It provides amazing results. Although it is a payment tool, you can take advantage of the free trial by registering on BrowserStack with a valid email address.
+
+28. DIFFERENCE BETWEEN MULTI-TOUCH AND SINGLE TOUCH SCREEN?
+- If your devices and applications support multi-touch features, such as pinch-to-zoom effects on iPhones, be sure to include plenty of test cases involving touching the screen in multiple locations simultaneously, especially when using a soft Typing on the keyboard.
+
+29. DIFFERENTIATE BETWEEN LONG TOUCH AND SHORT TOUCH?
+- While there is no concept of double-clicking on touch screen devices (although your application can be implemented specifically), some devices such as Android smartphones distinguish between long touch and short touch. Pressing and holding an item will bring up a context menu in the middle of the screen while clicking on the same item will automatically perform the first task in that context menu.
+
+30. WHAT IS TEST PLANNING?
+Preparing to test mobile devices.
+- Methods and tools continue to be developed to facilitate usability testing on phones and tablets.
+- When planning a mobile device test, you should keep the following points in mind-
+         * Your deadline and budget
+         * The physical setup of the space and how you are going 
+         * Your target audience and device.
+Another important aspect after test planning is test equipment management.
+
+31. WHAT IS A DEVICE MANAGEMENT TOOL?
+- MDM i.e. Mobile device management is a type of security software that is used in IT to manage, monitor and secure employees’ mobile devices across multiple mobile operating systems being used by many mobile service providers and in the organization. Are posted.
+- MDM is usually combined with additional security services and devices such as mobile application management to create complete mobile device and secure enterprise mobility management solutions.
+
+32. WHAT ARE THE HARDWARE COMPONENTS OF MOBILE DEVICES?
+- If you take any cellphone, it will mostly contain the following parts:
+        * Circuit board / CPU
+        * Touch screen display
+        * Memory card
+        * Sim Card
+        * The battery
+        
+33. HOW DIFFERENT IS A CAPACITIVE TOUCHSCREEN?
+> Resistive touchscreen – It consists of two layers that form an overlay on the screen. When the finger is placed at any point on the screen, the two forms receive contact and coordination. These are relatively inexpensive and are found right on most budget phones. The downside is that a certain amount of pressure is required to enter the touch. As time passes, there is some degree of damage to the screen.
+> Capacitive touchscreen – The entire screen is coated with a capacitive material that carries a certain amount of electric charge. When an operating object is placed on the screen like a finger, the capacitance changes at that point, and thus the coordinates are obtained.
+
+34. WHAT ARE THE OTHER WAYS TO TEST MOBILE DEVICES?
+- Some tests are available as apps for both iOS and Android platforms. To use them you have to download the desired app. Then follow the instructions to run the exam and save your result.
+Test speed equipment
+> Speed ​​Test SpeedSmart WiFi and Mobile Network SpeedTest – It is compatible with Apple iPhone and iPad. It is a paid application. SpeedSmart is the ultimate iOS speed test utility to evaluate your cellular (3G, 4G, and LTE) and Wi-Fi connections on all your iOS devices. A smart speed test and a global server network method ensure accurate results.
+
+35. LIST OF SOME AUTOMATED MOBILE TESTING DEVICES?
+- There are two types of automation tools available for testing mobile applications for mobile testing.
+         > Object-based mobile testing tools: JAMA Solutions, Radorex,
+         > Image-based mobile testing equipment: Rutinbot, Eggplant, Sikkli
+
+36. WHAT ARE THE PARTS OF THE ANDROID TEST FRAMEWORK?
+> Android test framework includes three sections
+> Application Package: This is the target application that needs testing
+> Instrumentation tester: This is a test case runner that runs a test case on-target application. It includes an SDK tool and a tool for building tests that provide apes for writing programs that control Android devices, for example, Monkey Runner
+> Test package: It consists of two classes, test case class, and mock objects. Test case classes include test methods for performing an on-target application, while a mock object contains mock data, which will be used as sample input for test cases.
+
+37. MENTION WHAT SHOULD BE THE SELECTION CRITERIA FOR TEST AUTOMATION TOOLS FOR MOBILE TESTING?
+         * Multi-platform support
+         * Script utility
+         * Need to run
+         * Source code changes
+         * Lead time for new OS version
+
+38. WHAT IS THE MOST COMMON PROBLEM TESTERS FACE WHEN TESTING MOBILE IN CLOUD COMPUTING?
+- The tester faces challenges while doing mobile testing are as follows:
+         * Membership model
+         * High cost
+         * Too close
+         * Internet connectivity issues
+         * Automation is image-based and time-consuming
+         * Automation cannot be used outside the framework
+
+39. TELL US WHAT IS INVOLVED IN MOBILE SECURITY TESTING?
+- Mobile security tests include:
+         * Check for multi-user support between them without interfering with the data
+         * Check access to files stored in the app by any unexpected users
+         * Encryption or encryption method used for sensitive data communication
+         * Find sensitive areas in the tested application so that they do not receive any malicious content
+
+40. WHAT IS PORT TESTING?
+- This test is done to test the same functionality on different devices with different platforms. It is classified into two categories:
+         * Device testing
+         * Platform testing
+         
+41. LIST SOME IPHONE AND IPAD TEST DEVICES?
+- iPhone tester: Test your web interface in iPhone size frame
+- Appium: This is a test automation tool used with native and hybrid iOS apps
+- iPad Peek: Test your web app using the iPad interface
+- Test Studio: It enables you to record, create and run automated tests for your iPad and iPhone applications.
+
+42. HOW CAN WE INSTALL AN SD CARD IN THE EMULATOR?
+- To install the SD card in the emulator, you need to use the command:
+- MKsdcrd-I mySDCard 1024M mySdCardFile.img
+
+43. WHAT IS A TEST CASE RUNNER?
+- It is commonly called an instrumentation test runner and is a runner responsible for running test cases smoothly on the application package. Tools that provide APIs and SDK tools are present in this runner and are responsible for writing programs that control Android gadgets.
+
+44. WHAT FEATURES SHOULD YOU HAVE IN A MOBILE APPLICATION?
+- All of them have some quite necessary features. This includes:
+         * Reliability
+         * Compatibility with other technologies
+         * Scalability
+         * Fragrance
+         * Mode of operation
+         * Open-source technology
+         * Wide adaptability
+         * Fast operation
+         
+45. WHAT ARE THE TESTS NORMALLY PERFORMED IN STANDARD ANDROID STRATEGY?
+- These are integration testing, unit testing, system testing, and operations testing. There is also another test based on the usage and features of the mobile application which is usually done in this environment.
+
+46. WHAT DO YOU MEAN BY THE WORD COMPATIBILITY AND COMPATIBILITY TEST?
+- There is widespread use and scope of the term compatibility when it comes to application testing. It simply means the ability to survive together with something similar. Compatibility testing is quite common and is a type of test that assures the ability of an application to run on different operating systems, platforms, networks as well as hardware. It is also considered non-functional testing.
+
+47. NAME SOME DEFECT TRACKING TOOLS IN MOBILE APPLICATION TESTING?
+Mobile App Trial Tracking Tool:
+         * Cumin
+         * Qc
+         * Rancid
+         * The rally
+
+48. ENCOUNTERED ISSUES WITH CROSS-PLATFORM TESTING?
+- Generally, the issue depends on different OS/device versions, it can do the same thing while working on one OS, while it may not work on another version. For example, we encountered a problem that our application was working fine on iOS 6.x version devices, but some modules were exploited when the application crashed on iOS 5.x devices and the same happened with 2.3.5
+
+49. WHAT ARE COMMON BUGS FOUND DURING THE MOBILE TESTING PROCESS?
+- In general, some mobile testers classify the most frequently found insects into four types:
+         * Critical bug: The operating system of the device crashes while testing a particular feature of the application.
+         * Block bug: Non-equalization of the display occurs even when the state of the device is still on.
+         * Major bug: A distinguishing feature of the application is its inability to demonstrate its functionality.
+         * Minor bugs: GUI bugs are usually the main case of falling into a minor bug list.
+Additionally, some other types of bugs are also found during the mobile application testing process, for example:
+         > Slow performance of an application
+         > Battery consumption by an application
+         > Completely unresponsive behavior of an application
+         
+50. WHEN SHOULD THE QA TEAM CHOOSE MANUAL TESTS OR AUTOMATION TESTS FOR THEIR MOBILE TESTING PROJECTS?
+- Automation testing has greatly increased the speed and quality of testers over the past decades. Understanding when to make such a transition is the first step to maximize the efficiency of your team, from manual testing to automated testing. For a comprehensive guideline, see the article A Complete Guide to Choosing Test Cases for Automation. Here are some key points:
+         > Manual test
+              * The application has new functionality.
+              * The application requires testing once or twice.
+         > Automated testing
+              * Release cycle regression requires a large amount of testing.
+              * The test application requires complex scenarios.
+Recommended: Enroll in our automated testing courses to acquire automation testing skills & build a rewarding career in it.
+
+51. WHAT PROBLEMS DO TESTERS ENCOUNTER WHEN TESTING MOBILE ON CLOUD COMPUTING?
+- Cloud computing poses various challenges for both beginner and advanced testers of mobile testing.
+         Membership Model:
+Although the cloud solution offers some advantages to testers, there is a continuing concern about the membership model.
+         High-Cost:
+While cloud services have been sold as cost-saving solutions, the reality is that these services may be more expensive. The challenge may arise from the cost of the required talent, the migration process for the team’s mobile testing project.
+
+52. DIFFICULTIES IN MOBILE AUTOMATED TESTING?
+- For some projects that implement automated testing, cloud computing may come with a pain point for each tester involved. Because mobile automation testing is image-based, executing test cases on cloud computing will become more challenging and time-consuming. Also, automation testing cannot be used outside the framework.
+
+53. IS AUTOMATION TESTING A COMPLETE REPLACEMENT FOR MANUAL SOFTWARE TESTING?
+- Any proper automation does not require as little interference from humans as possible since the equipment used is built to install the test once.
+
+54. WHAT IS MOBILE TESTING FRAMEWORK?
+- A test framework or more specifically a test automation framework is an execution environment for automated testing. This is the overall system in which tests will be automated. It is defined as a set of beliefs, concepts, and practices that constitute a working platform or support for automated testing.
+- A test framework is responsible for this –
+         * Defining the format to express expectations
+         * Creating a mechanism to hook or drive in the application under test
+         * Test and report results
+         
+55. HOW DO YOU TEST CPU USAGE ON MOBILE?
+- To test CPU usage on mobile, I will use advanced applications like CPU Monitor, CPU-Z, CPU Statistics, etc. as they can record all the details about the processes running on mobile devices.
+
+56. CAN YOU NAME SOME AUTOMATION DEVICES THAT ARE COMPATIBLE WITH BOTH ANDROID AND IOS MOBILES?
+- Animaam, Calabasa, and Mankitlak are the most effective automation tools that are compatible with both Android and iOS mobile devices.
+
+57. WHAT IS THE ANDROID TEST FRAMEWORK?
+- The Android Testing Framework is an open-source framework that is used by developers to record user interface (UI) tests for unit devices and Android devices.
+- The 5 commonly used Android test frameworks are:
+         * Poppy
+         * Detox
+         * Express
+         * Calabash
+         * UI Automator
+
+58. WHAT IS IOS TESTING FRAMEWORK?
+- The iOS testing framework assesses the performance of iOS applications on Apple devices to record and trigger user tasks based on interactions with the user interface.
+- The 5 commonly used iOS test frameworks are:
+         * Poppy
+         * XCTest / XCUITest
+         * Detox
+         * Calabash
+         * Earl grey
+
+59. HOW CAN YOU DO A/B TESTING ON THE IOS APPLICATION?
+- A/B testing on iOS app can be done using the following 4 steps:
+         * Configuration: Create 2 versions of the iOS app, namely A and B.
+         * Define Success Metrics: Identify the objectives and metrics against which app success will be measured.
+         * Execution: Test both versions simultaneously.
+         * Analysis: Evaluate and identify a better version to issue.
+
+60. WHAT IS THE EXTENSION OF ANDROID AND IOS APPLICATION FILES?
+- The Android file is .apk extended and an iOS file is .ipa.
+
+61. WHAT DO YOU UNDERSTAND BY MT AND MO?
+> MT and MO are part of the SMS life cycle.
+> MO stands for Message Origin, which refers to sending messages and MT stands for termination of messages, referring to receiving messages.
+
+62. WHAT IS WAP?
+> WAP stands for Wireless App Protocol. Used in network applications, this communication protocol enables data access through wireless networks.
+> It facilitates easy connectivity between mobile and the Internet and enhances wireless inter-operability.
+
+63. WHAT IS THE MAJOR DIFFERENCE BETWEEN A WAP TEST AND A WEB TEST?
+> WAP testing is used to test network applications, while web testing is mainly concerned with testing websites and portals.
+
+64. HOW WOULD YOU DEFINE AVD?
+> AVD stands for Android Virtual Device. It is an Android emulator for testing applications on PCs.
+
+65. HOW DO YOU TELL AN APP CRASH TO A DEVELOPER?
+> Interviewers ask this mobile test interview question to understand your method of communicating with developers in case of discrepancies.
+
+66. CAN YOU NAME 2 APPS FOR EACH ANDROID AND IOS TO RECORD THE CRASH LOG?
+> To record the crash log, you can use Android Studio and Eclipse for Android devices and the iOS logo and Xcode iOS devices.
+
+67. WHAT DO YOU KNOW ABOUT MOBILE API TESTING?
+> The API stands for Application Programming Interface.
+> Mobile API testing assesses a set of APIs to analyze its performance, performance, and security to determine if it matches the set expectations.
+
+68. WHAT DO YOU KNOW ABOUT PRC AND ADB?
+> PRC stands for Palm Resource Compiler. It has a file format similar to archives and stores processing data.
+> ADB (Android Debug Bridge) is a client-server program that enables the development of Android apps. It consists of 3 components – a client, a daemon, and a server.
+
+APPIUM QUESTIONS
+69. WHAT DO YOU KNOW ABOUT APPIUM?
+> Appium is an open-source mobile-application test framework that can be used with web, native and hybrid apps. It enables UI testing for mobile applications and is compatible with both Android and iOS devices.
+
+70. HOW TO INSTALL APPIUM?
+          * Go to http://appium.io/ and click on Download Appium.
+          * For Windows, select the exe file and download
+          * Click on the downloaded exe.
+          * Install appium exe file
+          * Next, you will see the Server Start Window. It populates the default host and port option which you can change. It also mentions the version of Appium being used.
+          * On clicking the Start Server Button, a new server is launched on the specified host and port. Server log output is shown.
+          * Click New Session Window.
+          * You can enter the Desired Capabilities and start a session
+
+71. WHAT ARE THE BENEFITS OF APPIUM OVER OTHER TEST SETTINGS?
+         * It is free and (mostly) open-source.
+         * It has a very well-supported and active Google Group.
+         * It supports both Android and iOS.
+         * There is no need to do anything to install it on the device – no server or code change is required.
+
+72. WHAT ARE THE MAJOR DRAWBACKS OF APPIUM?
+- There is no support for intelligent waiting.
+- On iOS, you can only do one test at a time per Mac.
+- Limited support for gestures.
+- Limited support for Android 4.1
+
+73. IS APPIUM DIFFERENT FROM OTHER DEVICES?
+- Appium as it is out of other devices:
+         * Enables effective web testing.
+         * Test in native, web, and hybrid apps.
+         * Supports automation tests on both emulator and device.
+         * Does not depend on the mobile device.
+
+74. WHAT IS APPIUM INSPECTOR?
+- Apium Inspector is a visual tool used to analyze the elements of an application and its ability to interact with them to obtain basic information.
+- It is used to record and play application behavior by inspecting the DOM and evaluating test scripts in the desired language.
+
+75. WHICH PROGRAMMING LANGUAGES ​​DOES APPIUM SUPPORT?
+- Appium stands out from other mobile automation devices with the ability to perform regardless of languages.
+- It supports all languages ​​that support HTTP requests. Java, JavaScript, Python, PHP, Ruby, etc. are some of them.
+
+76. WHAT WOULD YOU NEED TO WRITE AN APPIUM TEST?
+- The basic requirements for writing an APAM test are:
+         * Driver Commands – Write tests using a collection of appium commands.
+         * Appium session- Since appium is done in a test session, it is important to start an Appium session to run the test.
+         * Desired Capabilities: Parameters that establish the type of automation test expected of an Appium server. Platform versions, devices, network environments are some of the desired capabilities.
+         * Driver Client Library – Client library helps to write APOM test and include HTTP server to forward using HTTP.
+
+77. WHAT IS REQUIRED TO RUN A SERVER MACHINE TEST ON APPIUM?
+- The server machine is not required to run tests on APAM because it has a 2-tier structure, which enables the connection of the test machine and test server by automating the device.
+
+78. WHAT ARE THE PRE-REQUISITES FOR RUNNING APPIUM?
+- The prerequisites for running a test on Appium are:
+         * Install eclipse
+         * Android SDK
+         * JDK (Java Development Kit)
+         * TestNg for Eclipse
+         * Selenium server jar
+         * Appium Client Library
+         * APK app information – Google Play
+         * JS (included in current Appium versions)
+         * Appium for Windows
+         
+79. CAN YOU RUN TESTS IN A MULTI-THREADED ENVIRONMENT USING APPIUM?
+- Yes, it is possible to run tests in a multi-thread environment using Appium provided that only one test runs at a time on the same Appium server.
+- What type of file is required to test automation in Android using Appium?
+- .Apk files are required to test automation in Android using Apium.
+
+80. WHAT ARE THE TWO MAJOR APPROACHES TO TEST AUTOMATION?
+- There are two approaches to testing automation:
+         * Image-based approach – This technique is based on processing the characteristics of images in Auto (application under test).
+         * It is easy to automate and can accurately test applications and rendering of GUIs.
+         * Object-based approach: It is a fast and accurate way to identify lists, buttons, and other objects in an application.
+This technique is much faster than an image-based approach and is compatible with many languages.
+
+Also, read Machine Learning and Python and picking the right programming language.
+
+
+
+
+
